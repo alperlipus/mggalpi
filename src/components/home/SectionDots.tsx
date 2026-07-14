@@ -5,9 +5,10 @@ import { useTranslations } from 'next-intl';
 
 const SECTIONS = [
   { id: 'top', key: 'brand' },
+  { id: 'sihirbaz', key: 'products' },
   { id: 'grup', key: 'group' },
   { id: 'vizyon', key: 'vision' },
-  { id: 'anatomi', key: 'products' },
+  { id: 'uretim', key: 'products' },
   { id: 'urunler', key: 'products' },
   { id: 'referanslar', key: 'projects' },
   { id: 'iletisim', key: 'contact' },
@@ -15,9 +16,10 @@ const SECTIONS = [
 
 const LABELS: Record<string, string | null> = {
   top: null, // uses nav.brand
+  sihirbaz: null, // custom below
   grup: 'group',
   vizyon: null, // custom below
-  anatomi: null, // custom below
+  uretim: null, // custom below
   urunler: 'products',
   referanslar: 'projects',
   iletisim: 'contact',
@@ -25,8 +27,9 @@ const LABELS: Record<string, string | null> = {
 
 export function SectionDots() {
   const tNav = useTranslations('nav');
-  const tAnatomy = useTranslations('anatomy');
+  const tProduction = useTranslations('production');
   const tVision = useTranslations('vision');
+  const tWizard = useTranslations('wizard');
   const [active, setActive] = useState('top');
 
   useEffect(() => {
@@ -47,7 +50,8 @@ export function SectionDots() {
 
   function label(id: string) {
     if (id === 'top') return tNav('brand');
-    if (id === 'anatomi') return tAnatomy('eyebrow');
+    if (id === 'sihirbaz') return tWizard('eyebrow');
+    if (id === 'uretim') return tProduction('eyebrow');
     if (id === 'vizyon') return tVision('eyebrow');
     const key = LABELS[id];
     return key ? tNav(key) : id;

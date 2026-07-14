@@ -45,6 +45,39 @@ export default async function DealersPage() {
           </Reveal>
         </div>
       </section>
+
+      <section id="bayi-agi" className="section-pad scroll-mt-20 bg-mist-50">
+        <div className="container-page">
+          <Reveal>
+            <div className="mx-auto max-w-2xl text-center">
+              <p className="flex items-center justify-center gap-3 font-mono text-[11px] font-semibold uppercase tracking-[0.22em] text-volt-700">
+                <span className="h-px w-8 bg-volt-500" aria-hidden />
+                {t('network.eyebrow')}
+                <span className="h-px w-8 bg-volt-500" aria-hidden />
+              </p>
+              <h2 className="mt-4 font-display text-3xl font-bold tracking-tight text-graphite-950 sm:text-4xl">
+                {t('network.title')}
+              </h2>
+              <p className="mt-4 text-mist-700">{t('network.subtitle')}</p>
+            </div>
+          </Reveal>
+          <Reveal delay={0.1}>
+            <div className="relative mt-10 overflow-hidden rounded-2xl border border-mist-900/10 shadow-card">
+              <iframe
+                src="https://www.google.com/maps?q=T%C3%BCrkiye&hl=tr&z=6&output=embed"
+                title={t('network.title')}
+                className="h-[420px] w-full border-0"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                allowFullScreen
+              />
+              <span className="absolute bottom-4 start-4 rounded-full bg-graphite-950/80 px-4 py-1.5 text-xs font-semibold text-white backdrop-blur-sm">
+                {t('network.mapNote')}
+              </span>
+            </div>
+          </Reveal>
+        </div>
+      </section>
     </>
   );
 }

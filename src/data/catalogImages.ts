@@ -1,0 +1,60 @@
+/* Product photos for catalog items, keyed by `${familyId}-${groupIndex}`,
+   arrays aligned with the item order in the locale message files. */
+export const catalogImages: Record<string, (string | null)[]> = {
+  'kolektorler-0': [
+    '/products/orion-100.png',
+    '/products/orion-200.jpg',
+    '/products/orion-300.jpg',
+    '/products/orion-400.jpg',
+    '/products/orion-500.jpg',
+    '/products/orion-600.jpg',
+    null,
+    null,
+    null,
+  ],
+  'boylerler-0': [
+    '/products/aquarious-500.jpg',
+    '/products/aquarious-540.jpg',
+    null,
+    null,
+    '/products/aquarious-740.jpg',
+  ],
+  'sehpalar-0': [
+    '/products/sehpa-merkezi-2li.jpg',
+    '/products/sehpa-merkezi-3lu.jpg',
+    null,
+    null,
+    null,
+    null,
+  ],
+  'sehpalar-1': [
+    '/products/helios-120.jpg',
+    '/products/helios-200s.jpg',
+    '/products/helios-200l.jpg',
+    '/products/helios-300s.jpg',
+    '/products/helios-300l.jpg',
+    null,
+    null,
+    '/products/sehpa-paket.jpg',
+  ],
+  'otomasyon-0': [null, null, null, null],
+  'otomasyon-1': [
+    '/products/fleks-ara.jpg',
+    '/products/fleks-kose.jpg',
+    '/products/kor-tapa.jpg',
+    '/products/solar-vana.jpg',
+    '/products/hava-purjoru.jpg',
+    null,
+    null,
+    null,
+    null,
+  ],
+};
+
+/* One representative photo per family for overview cards. */
+export const familyImages: Record<string, string> = {
+  kolektorler: '/products/orion-500.jpg',
+  boylerler: '/products/aquarious-740.jpg',
+  sehpalar: '/products/sehpa-merkezi-3lu.jpg',
+  otomasyon: '/products/solar-vana.jpg',
+};

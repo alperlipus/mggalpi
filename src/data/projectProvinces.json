@@ -1,0 +1,499 @@
+[
+  {
+    "il": "HATAY",
+    "lat": 36.4018,
+    "lng": 36.3498,
+    "projects": 79,
+    "homes": 5469
+  },
+  {
+    "il": "MALATYA",
+    "lat": 38.3552,
+    "lng": 38.3095,
+    "projects": 38,
+    "homes": 472
+  },
+  {
+    "il": "İSTANBUL",
+    "lat": 41.0082,
+    "lng": 28.9784,
+    "projects": 26,
+    "homes": 4708
+  },
+  {
+    "il": "KAHRAMANMARAŞ",
+    "lat": 37.5858,
+    "lng": 36.9371,
+    "projects": 24,
+    "homes": 836
+  },
+  {
+    "il": "ANKARA",
+    "lat": 39.9208,
+    "lng": 32.8541,
+    "projects": 15,
+    "homes": 5268
+  },
+  {
+    "il": "KONYA",
+    "lat": 37.8667,
+    "lng": 32.4833,
+    "projects": 13,
+    "homes": 771
+  },
+  {
+    "il": "GAZİANTEP",
+    "lat": 37.0662,
+    "lng": 37.3833,
+    "projects": 12,
+    "homes": 2308
+  },
+  {
+    "il": "ELAZIĞ",
+    "lat": 38.681,
+    "lng": 39.2264,
+    "projects": 10,
+    "homes": 250
+  },
+  {
+    "il": "AFYONKARAHİSAR",
+    "lat": 38.7507,
+    "lng": 30.5567,
+    "projects": 9,
+    "homes": 341
+  },
+  {
+    "il": "DÜZCE",
+    "lat": 40.8438,
+    "lng": 31.1565,
+    "projects": 9,
+    "homes": 156
+  },
+  {
+    "il": "KAYSERİ",
+    "lat": 38.7312,
+    "lng": 35.4787,
+    "projects": 9,
+    "homes": 131
+  },
+  {
+    "il": "ADIYAMAN",
+    "lat": 37.7648,
+    "lng": 38.2786,
+    "projects": 9,
+    "homes": 0
+  },
+  {
+    "il": "ADANA",
+    "lat": 37,
+    "lng": 35.3213,
+    "projects": 9,
+    "homes": 0
+  },
+  {
+    "il": "ŞANLIURFA",
+    "lat": 37.1591,
+    "lng": 38.7969,
+    "projects": 9,
+    "homes": 0
+  },
+  {
+    "il": "AYDIN",
+    "lat": 37.856,
+    "lng": 27.8416,
+    "projects": 9,
+    "homes": 0
+  },
+  {
+    "il": "DİYARBAKIR",
+    "lat": 37.9144,
+    "lng": 40.2306,
+    "projects": 8,
+    "homes": 496
+  },
+  {
+    "il": "BALIKESİR",
+    "lat": 39.6484,
+    "lng": 27.8826,
+    "projects": 7,
+    "homes": 250
+  },
+  {
+    "il": "YOZGAT",
+    "lat": 39.8181,
+    "lng": 34.8147,
+    "projects": 7,
+    "homes": 728
+  },
+  {
+    "il": "DENİZLİ",
+    "lat": 37.7765,
+    "lng": 29.0864,
+    "projects": 7,
+    "homes": 0
+  },
+  {
+    "il": "BURDUR",
+    "lat": 37.7203,
+    "lng": 30.2908,
+    "projects": 6,
+    "homes": 0
+  },
+  {
+    "il": "ANTALYA",
+    "lat": 36.8969,
+    "lng": 30.7133,
+    "projects": 5,
+    "homes": 307
+  },
+  {
+    "il": "KIRIKKALE",
+    "lat": 39.8468,
+    "lng": 33.5153,
+    "projects": 5,
+    "homes": 495
+  },
+  {
+    "il": "MERSİN",
+    "lat": 36.8,
+    "lng": 34.6333,
+    "projects": 5,
+    "homes": 400
+  },
+  {
+    "il": "KÜTAHYA",
+    "lat": 39.4167,
+    "lng": 29.9833,
+    "projects": 5,
+    "homes": 0
+  },
+  {
+    "il": "KIRKLARELİ",
+    "lat": 41.7333,
+    "lng": 27.2167,
+    "projects": 5,
+    "homes": 0
+  },
+  {
+    "il": "MUĞLA",
+    "lat": 37.2153,
+    "lng": 28.3636,
+    "projects": 5,
+    "homes": 0
+  },
+  {
+    "il": "SAKARYA",
+    "lat": 40.694,
+    "lng": 30.4358,
+    "projects": 4,
+    "homes": 858
+  },
+  {
+    "il": "SAMSUN",
+    "lat": 41.2928,
+    "lng": 36.3313,
+    "projects": 4,
+    "homes": 991
+  },
+  {
+    "il": "TEKİRDAĞ",
+    "lat": 40.9833,
+    "lng": 27.5167,
+    "projects": 4,
+    "homes": 77
+  },
+  {
+    "il": "TRABZON",
+    "lat": 41.0015,
+    "lng": 39.7178,
+    "projects": 4,
+    "homes": 659
+  },
+  {
+    "il": "SİVAS",
+    "lat": 39.7477,
+    "lng": 37.0179,
+    "projects": 4,
+    "homes": 0
+  },
+  {
+    "il": "ORDU",
+    "lat": 40.9839,
+    "lng": 37.8764,
+    "projects": 4,
+    "homes": 0
+  },
+  {
+    "il": "BURSA",
+    "lat": 40.1885,
+    "lng": 29.061,
+    "projects": 4,
+    "homes": 0
+  },
+  {
+    "il": "EDİRNE",
+    "lat": 41.6818,
+    "lng": 26.5623,
+    "projects": 4,
+    "homes": 0
+  },
+  {
+    "il": "BİLECİK",
+    "lat": 40.1501,
+    "lng": 29.9831,
+    "projects": 3,
+    "homes": 0
+  },
+  {
+    "il": "NİĞDE",
+    "lat": 37.9667,
+    "lng": 34.6833,
+    "projects": 3,
+    "homes": 214
+  },
+  {
+    "il": "OSMANİYE",
+    "lat": 37.213,
+    "lng": 36.1763,
+    "projects": 3,
+    "homes": 80
+  },
+  {
+    "il": "ZONGULDAK",
+    "lat": 41.4564,
+    "lng": 31.7987,
+    "projects": 3,
+    "homes": 106
+  },
+  {
+    "il": "ÇANKIRI",
+    "lat": 40.6013,
+    "lng": 33.6134,
+    "projects": 3,
+    "homes": 292
+  },
+  {
+    "il": "MANİSA",
+    "lat": 38.6191,
+    "lng": 27.4289,
+    "projects": 3,
+    "homes": 559
+  },
+  {
+    "il": "ÇANAKKALE",
+    "lat": 40.1553,
+    "lng": 26.4142,
+    "projects": 3,
+    "homes": 0
+  },
+  {
+    "il": "ESKİŞEHİR",
+    "lat": 39.7767,
+    "lng": 30.5206,
+    "projects": 3,
+    "homes": 0
+  },
+  {
+    "il": "KOCAELİ",
+    "lat": 40.8533,
+    "lng": 29.8815,
+    "projects": 3,
+    "homes": 0
+  },
+  {
+    "il": "ISPARTA",
+    "lat": 37.7648,
+    "lng": 30.5566,
+    "projects": 3,
+    "homes": 0
+  },
+  {
+    "il": "BOLU",
+    "lat": 40.7392,
+    "lng": 31.6089,
+    "projects": 2,
+    "homes": 198
+  },
+  {
+    "il": "ERZİNCAN",
+    "lat": 39.75,
+    "lng": 39.5,
+    "projects": 2,
+    "homes": 216
+  },
+  {
+    "il": "İZMİR",
+    "lat": 38.4192,
+    "lng": 27.1287,
+    "projects": 2,
+    "homes": 790
+  },
+  {
+    "il": "KIRŞEHİR",
+    "lat": 39.1425,
+    "lng": 34.1709,
+    "projects": 2,
+    "homes": 111
+  },
+  {
+    "il": "KİLİS",
+    "lat": 36.7184,
+    "lng": 37.1212,
+    "projects": 2,
+    "homes": 111
+  },
+  {
+    "il": "TUNCELİ",
+    "lat": 39.3074,
+    "lng": 39.4388,
+    "projects": 2,
+    "homes": 528
+  },
+  {
+    "il": "ARDAHAN",
+    "lat": 41.1105,
+    "lng": 42.7022,
+    "projects": 2,
+    "homes": 218
+  },
+  {
+    "il": "ARTVİN",
+    "lat": 41.1828,
+    "lng": 41.8183,
+    "projects": 2,
+    "homes": 101
+  },
+  {
+    "il": "BİNGÖL",
+    "lat": 38.8854,
+    "lng": 40.4966,
+    "projects": 2,
+    "homes": 303
+  },
+  {
+    "il": "MARDİN",
+    "lat": 37.3212,
+    "lng": 40.7245,
+    "projects": 2,
+    "homes": 268
+  },
+  {
+    "il": "KARABÜK",
+    "lat": 41.2061,
+    "lng": 32.6204,
+    "projects": 2,
+    "homes": 0
+  },
+  {
+    "il": "AKSARAY",
+    "lat": 38.3687,
+    "lng": 34.037,
+    "projects": 2,
+    "homes": 0
+  },
+  {
+    "il": "ÇORUM",
+    "lat": 40.5506,
+    "lng": 34.9556,
+    "projects": 2,
+    "homes": 0
+  },
+  {
+    "il": "TOKAT",
+    "lat": 40.3167,
+    "lng": 36.55,
+    "projects": 2,
+    "homes": 0
+  },
+  {
+    "il": "BARTIN",
+    "lat": 41.6344,
+    "lng": 32.3375,
+    "projects": 2,
+    "homes": 0
+  },
+  {
+    "il": "BAYBURT",
+    "lat": 40.2552,
+    "lng": 40.2249,
+    "projects": 1,
+    "homes": 0
+  },
+  {
+    "il": "KARS",
+    "lat": 40.6013,
+    "lng": 43.0975,
+    "projects": 1,
+    "homes": 218
+  },
+  {
+    "il": "NEVŞEHİR",
+    "lat": 38.6939,
+    "lng": 34.6857,
+    "projects": 1,
+    "homes": 71
+  },
+  {
+    "il": "UŞAK",
+    "lat": 38.6823,
+    "lng": 29.4082,
+    "projects": 1,
+    "homes": 466
+  },
+  {
+    "il": "VAN",
+    "lat": 38.4891,
+    "lng": 43.4089,
+    "projects": 1,
+    "homes": 0
+  },
+  {
+    "il": "KASTAMONU",
+    "lat": 41.3887,
+    "lng": 33.7827,
+    "projects": 1,
+    "homes": 0
+  },
+  {
+    "il": "SİNOP",
+    "lat": 42.0231,
+    "lng": 35.1531,
+    "projects": 1,
+    "homes": 0
+  },
+  {
+    "il": "BİTLİS",
+    "lat": 38.4006,
+    "lng": 42.1095,
+    "projects": 1,
+    "homes": 0
+  },
+  {
+    "il": "KARAMAN",
+    "lat": 37.1759,
+    "lng": 33.2287,
+    "projects": 1,
+    "homes": 0
+  },
+  {
+    "il": "BATMAN",
+    "lat": 37.8812,
+    "lng": 41.1351,
+    "projects": 1,
+    "homes": 0
+  },
+  {
+    "il": "AMASYA",
+    "lat": 40.6499,
+    "lng": 35.8353,
+    "projects": 1,
+    "homes": 0
+  },
+  {
+    "il": "ŞIRNAK",
+    "lat": 37.4187,
+    "lng": 42.4918,
+    "projects": 1,
+    "homes": 0
+  }
+]

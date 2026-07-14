@@ -107,7 +107,7 @@ export function AnatomySection() {
                     <i className="h-2.5 w-2.5 rounded-full bg-graphite-300" />
                   </span>
                   <span className="truncate font-mono text-[10px] font-semibold uppercase tracking-[0.2em] text-graphite-600">
-                    ORION-500 · {t('viewerLabel')}
+                    {t('viewerLabel')}
                   </span>
                   <span className="hidden font-mono text-[10px] uppercase tracking-[0.14em] text-mist-500 sm:block">
                     ISO 30°

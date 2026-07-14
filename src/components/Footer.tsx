@@ -2,13 +2,14 @@ import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { Mail, Phone, MapPin } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
-import { products } from '@/data/products';
 
 export function Footer() {
   const t = useTranslations('footer');
   const tNav = useTranslations('nav');
   const tContact = useTranslations('contact');
-  const tProducts = useTranslations('products');
+  const tCatalog = useTranslations('catalog');
+  const tCalc = useTranslations('calculator');
+  const families = tCatalog.raw('families') as { id: string; title: string }[];
   const year = new Date().getFullYear();
 
   return (
@@ -34,6 +35,7 @@ export function Footer() {
             <li><Link href="/#grup" className="hover:text-white">{tNav('group')}</Link></li>
             <li><Link href="/#referanslar" className="hover:text-white">{tNav('projects')}</Link></li>
             <li><Link href="/resources" className="hover:text-white">{tNav('resources')}</Link></li>
+            <li><Link href="/calculator" className="hover:text-white">{tCalc('eyebrow')}</Link></li>
             <li><Link href="/dealers" className="hover:text-white">{t('dealersLink')}</Link></li>
           </ul>
         </div>
@@ -43,10 +45,10 @@ export function Footer() {
             {t('productsTitle')}
           </h3>
           <ul className="mt-4 space-y-2.5 text-sm text-graphite-200">
-            {[products[0], products[2], products[4], products[6]].map((p) => (
-              <li key={p.slug}>
-                <Link href={`/products/${p.slug}`} className="hover:text-white">
-                  {tProducts(`items.${p.slug}.name`)}
+            {families.map((f) => (
+              <li key={f.id}>
+                <Link href={`/products#${f.id}`} className="hover:text-white">
+                  {f.title}
                 </Link>
               </li>
             ))}

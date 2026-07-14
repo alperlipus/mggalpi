@@ -48,13 +48,13 @@ export function GroupSection() {
             <span className="font-mono text-[10px] font-semibold uppercase tracking-[0.2em] text-mist-500">
               {t('parentLabel')}
             </span>
-            <div className="mt-3 rounded-2xl border border-graphite-700/10 bg-mist-50 px-10 py-5 shadow-card">
+            <div className="mt-3 rounded-2xl border border-graphite-700/10 bg-mist-50 px-12 py-6 shadow-card">
               <Image
                 src="/brand/simsek-grup.png"
                 alt="Şimşek Grup"
                 width={1000}
                 height={1000}
-                className="h-16 w-auto object-contain sm:h-20"
+                className="h-32 w-auto object-contain sm:h-40"
               />
             </div>
           </div>

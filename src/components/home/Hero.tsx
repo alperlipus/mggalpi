@@ -1,20 +1,17 @@
 'use client';
 
 import { useTranslations, useLocale } from 'next-intl';
-import { motion, useReducedMotion, useMotionValue } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { ArrowRight, ArrowUpRight, ChevronDown } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 import { CountUp } from '@/components/CountUp';
-import { CollectorModel } from './CollectorModel';
 
 const NUMBER_LOCALE: Record<string, string> = { tr: 'tr-TR', en: 'en-US', ar: 'ar-EG' };
 
 export function Hero() {
   const t = useTranslations('hero');
   const locale = useLocale();
-  const reduce = useReducedMotion();
   const stats = t.raw('stats') as { value: number; suffix: string; label: string }[];
-  const assembled = useMotionValue(0);
 
   return (
     <section id="top" className="relative -mt-20 overflow-hidden bg-graphite-950 pt-20 text-white">
@@ -100,29 +97,11 @@ export function Hero() {
           </Link>
         </motion.div>
 
-        {/* Self-designed collector model, floating over the horizon */}
-        <motion.div
-          initial={{ opacity: 0, y: 40, scale: 0.94 }}
-          animate={{ opacity: 1, y: 0, scale: 1 }}
-          transition={{ duration: 1.1, delay: 0.55, ease: [0.22, 1, 0.36, 1] }}
-          className="relative mt-4 w-full max-w-xl sm:max-w-2xl"
-        >
-          <motion.div
-            animate={reduce ? undefined : { y: [0, -12, 0] }}
-            transition={reduce ? undefined : { duration: 9, repeat: Infinity, ease: 'easeInOut' }}
-          >
-            <CollectorModel explode={assembled} className="h-auto w-full drop-shadow-[0_24px_50px_rgba(0,0,0,0.45)]" />
-          </motion.div>
-          <p className="pointer-events-none -mt-6 text-center font-mono text-[10px] uppercase tracking-[0.26em] text-graphite-400">
-            ORION-500
-          </p>
-        </motion.div>
-
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.75 }}
-          className="mt-10 grid w-full max-w-md grid-cols-3 divide-x divide-white/12 border border-white/12 bg-white/[0.03] backdrop-blur-sm rtl:divide-x-reverse"
+          transition={{ duration: 0.8, delay: 0.6 }}
+          className="mt-16 grid w-full max-w-2xl grid-cols-3 divide-x divide-white/12 border border-white/12 bg-white/[0.03] backdrop-blur-sm rtl:divide-x-reverse"
         >
           {stats.map((s) => (
             <div key={s.label} className="px-4 py-3.5 text-start">

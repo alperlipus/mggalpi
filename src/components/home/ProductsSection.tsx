@@ -1,13 +1,26 @@
 import { useTranslations } from 'next-intl';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, ArrowUpRight, Sun, Droplets, Layers, Cpu } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
-import { products } from '@/data/products';
-import { ProductCard } from '@/components/ProductCard';
 import { Reveal } from '@/components/Reveal';
+
+interface CatalogFamily {
+  id: string;
+  title: string;
+  desc: string;
+  groups: { items: { name: string }[] }[];
+}
+
+const familyIcon: Record<string, typeof Sun> = {
+  kolektorler: Sun,
+  boylerler: Droplets,
+  sehpalar: Layers,
+  otomasyon: Cpu,
+};
 
 export function ProductsSection() {
   const t = useTranslations('productsSection');
-  const featured = [products[0], products[2], products[4], products[6]];
+  const tCatalog = useTranslations('catalog');
+  const families = tCatalog.raw('families') as CatalogFamily[];
 
   return (
     <section id="urunler" className="section-pad scroll-mt-20 bg-white">
@@ -34,21 +47,33 @@ export function ProductsSection() {
           </div>
         </Reveal>
 
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {featured.map((p, i) => (
-            <Reveal key={p.slug} delay={i * 0.08}>
-              <ProductCard product={p} />
-            </Reveal>
-          ))}
+        <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          {families.map((family, i) => {
+            const Icon = familyIcon[family.id] ?? Sun;
+            const count = family.groups.reduce((sum, g) => sum + g.items.length, 0);
+            return (
+              <Reveal key={family.id} delay={i * 0.08}>
+                <Link
+                  href={`/products#${family.id}`}
+                  className="group flex h-full flex-col rounded-2xl border border-mist-900/10 bg-mist-50 p-7 transition-all hover:-translate-y-1 hover:border-volt-500/40 hover:bg-white hover:shadow-card"
+                >
+                  <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-volt-100 text-volt-700">
+                    <Icon size={21} strokeWidth={1.75} />
+                  </span>
+                  <h3 className="mt-5 font-display text-lg font-bold text-graphite-950">{family.title}</h3>
+                  <p className="mt-1 font-mono text-[10px] font-semibold uppercase tracking-[0.16em] text-mist-500">
+                    {count} {tCatalog('seriesLabel')}
+                  </p>
+                  <p className="mt-3 text-sm leading-relaxed text-mist-700">{family.desc}</p>
+                  <div className="mt-auto flex items-center gap-1.5 pt-5 text-sm font-semibold text-graphite-950 transition-colors group-hover:text-volt-600">
+                    {t('viewAll')}
+                    <ArrowUpRight size={15} className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 rtl:group-hover:-translate-x-0.5" />
+                  </div>
+                </Link>
+              </Reveal>
+            );
+          })}
         </div>
-
-        <Link
-          href="/products"
-          className="mt-10 flex items-center justify-center gap-2 rounded-full border border-graphite-950/15 px-5 py-3 text-sm font-semibold text-graphite-950 sm:hidden"
-        >
-          {t('viewAll')}
-          <ArrowRight size={15} className="rtl:rotate-180" />
-        </Link>
       </div>
     </section>
   );

@@ -1,7 +1,10 @@
 import { useTranslations } from 'next-intl';
-import { MapPin, Phone, Mail, Clock, ArrowUpRight } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 import { Reveal } from '@/components/Reveal';
 import { ContactForm } from '@/components/ContactForm';
+
+export const FACTORY_MAP_EMBED =
+  'https://www.google.com/maps?q=%C5%9Eim%C5%9Fek+G%C3%BCne%C5%9F+Kollekt%C3%B6rleri+San.+Tic.+Ltd.+%C5%9Eti.+Mersin&hl=tr&z=15&output=embed';
 
 export function HomeContact() {
   const t = useTranslations('contact');
@@ -39,20 +42,22 @@ export function HomeContact() {
                   <p className="mt-1.5 text-sm leading-relaxed text-mist-600" dir={item.dir}>
                     {item.value}
                   </p>
-                  {item.icon === MapPin && (
-                    <a
-                      href={t('info.mapsUrl')}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="mt-2 inline-flex items-center gap-1 text-sm font-semibold text-volt-700 transition-colors hover:text-volt-600"
-                    >
-                      {t('info.directions')}
-                      <ArrowUpRight size={14} />
-                    </a>
-                  )}
                 </div>
               </Reveal>
             ))}
+
+            <Reveal delay={0.3}>
+              <div className="overflow-hidden rounded-2xl border border-mist-900/10 shadow-card">
+                <iframe
+                  src={FACTORY_MAP_EMBED}
+                  title={t('info.addressTitle')}
+                  className="h-64 w-full border-0"
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  allowFullScreen
+                />
+              </div>
+            </Reveal>
           </div>
 
           <Reveal delay={0.1}>

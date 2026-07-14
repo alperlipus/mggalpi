@@ -16,13 +16,13 @@
     "eyebrow": "Since 1990 — 35th year",
     "titleLine1": "We take energy from nature,",
     "titleLine2": "and carry it to the future.",
-    "subtitle": "Şimşek Solar manufactures Orion collectors, Aquarious enameled boilers and Helios package systems at its Mersin plants. From production to project engineering, field installation to smart monitoring — the whole process under one roof.",
+    "subtitle": "With over 35 years of manufacturing expertise, Şimşek Solar designs and produces solar thermal systems at its integrated plants in Mersin and delivers them worldwide. The entire value chain — from R&D and production to project engineering and after-sales service — is managed under one roof.",
     "ctaPrimary": "Explore Products",
     "ctaSecondary": "Request a Quote",
     "stats": [
       { "value": 35, "suffix": "", "label": "Years of manufacturing" },
-      { "value": 40000, "suffix": "+", "label": "Units in the field" },
-      { "value": 18, "suffix": "+", "label": "Export markets" }
+      { "value": 240000, "suffix": "+", "label": "Systems in the field" },
+      { "value": 40, "suffix": "+", "label": "Export markets" }
     ]
   },
   "group": {
@@ -35,25 +35,25 @@
         "id": "solar",
         "name": "Şimşek Solar",
         "tag": "Solar Thermal Systems",
-        "desc": "Manufacturer of Orion collectors, Aquarious enameled boilers and Helios package systems. The source of hot water from homes to military facilities."
+        "desc": "One of Türkiye's most established solar thermal manufacturers with over 35 years of expertise. Orion collectors, Aquarious boilers and Helios package systems — end-to-end engineering from R&D and production to projects and after-sales."
       },
       {
         "id": "lipus",
         "name": "Lipus",
-        "tag": "Energy Storage & Power Systems",
-        "desc": "New-generation energy storage and power electronics; uninterrupted power for your systems."
+        "tag": "Smart Home & Energy Technologies",
+        "desc": "Develops smart home systems with the Zero Carbon House vision: zero-carbon living spaces that generate, store and intelligently manage their own solar energy."
       },
       {
         "id": "yenilenebilir",
         "name": "Şimşek Renewables",
-        "tag": "Renewable Energy Systems",
-        "desc": "Solar plants and renewable energy investments; the energy transition from engineering to operation."
+        "tag": "Sales · Service · Contracting",
+        "desc": "Sales, service and contracting in renewable energy from a single source: solar plant engineering, turnkey installation, periodic maintenance and operation."
       },
       {
         "id": "smk",
         "name": "SMK Aluminum",
-        "tag": "Aluminum Profiles & Processing",
-        "desc": "The production muscle behind the group's and the industry's aluminum profiles; the source of every collector casing."
+        "tag": "Aluminum & Material Supply",
+        "desc": "Both an aluminum profile manufacturer and an industrial material supply company: a single point of supply for the group's and the industry's aluminum and material needs."
       }
     ]
   },
@@ -80,7 +80,7 @@
     ],
     "viewerLabel": "DIGITAL TWIN",
     "titleBlock": {
-      "model": "ORION-500",
+      "model": "ORION SERIES",
       "scale": "SOLIDWORKS MODEL",
       "dims": "2100 × 1200 × 95 mm",
       "code": "ŞS-TR-1990",
@@ -88,11 +88,148 @@
       "sheet": "SHEET 01"
     }
   },
+  "production": {
+    "eyebrow": "Production Power",
+    "title": "Every step of production in-house",
+    "body": "At its integrated plants in Mersin, Şimşek Solar runs the entire production process under its own roof, from raw material intake to packaging. Bringing the enamel kiln, CNC tube bending, laser cutting and aluminum profile lines together on a single campus combines high capacity with consistent quality, short lead times and competitive cost. Every product passes quality control stations before reaching the field.",
+    "stats": [
+      { "value": "11,575 m²", "label": "Production facility area" },
+      { "value": "900 / day", "label": "Collector production capacity" },
+      { "value": "150 / day", "label": "Boiler production capacity" },
+      { "value": "100,000+", "label": "Completed projects" }
+    ]
+  },
+  "calculator": {
+    "eyebrow": "Calculator",
+    "title": "System sizing and calculation report",
+    "subtitle": "Size the right collector and boiler capacity for your consumption and get your report.",
+    "soonTitle": "Calculation tool coming soon",
+    "soonBody": "Our sizing and calculation report tool will be embedded on this page. Until then, our team can run the calculation for you via the quote form."
+  },
+  "projectsMap": {
+    "eyebrow": "Project Map",
+    "title": "449 projects in 71 provinces, 30,000+ homes",
+    "subtitle": "From our production base in Mersin across Türkiye and into export markets: the footprint of our completed projects.",
+    "legend": {
+      "factory": "Production Plant",
+      "project": "Project Province",
+      "export": "Export"
+    },
+    "tooltip": {
+      "projects": "projects",
+      "homes": "homes"
+    },
+    "note": "Bubble size reflects project count"
+  },
   "productsSection": {
     "eyebrow": "Product Range",
-    "title": "Orion, Aquarious, Helios and Smart Systems",
-    "subtitle": "From collectors to boilers, package systems to remote monitoring — a solution for every installation.",
+    "title": "A complete range from collectors to automation",
+    "subtitle": "Orion collectors, Aquarious and Sirius boilers, central and package system mounting frames, automation and connection equipment.",
     "viewAll": "View all products"
+  },
+  "catalog": {
+    "newBadge": "New Design · New Product",
+    "seriesLabel": "series",
+    "detailSoon": "Detail page in preparation",
+    "families": [
+      {
+        "id": "kolektorler",
+        "title": "Collectors",
+        "desc": "Orion series flat-plate solar collectors; nine series by tube and absorber combination.",
+        "groups": [
+          {
+            "items": [
+              { "name": "Orion 100 Series", "note": "Aluminum Tube + Matte Black Painted Aluminum Absorber" },
+              { "name": "Orion 200 Series", "note": "Aluminum Tube + Selective Aluminum Absorber" },
+              { "name": "Orion 300 Series", "note": "Copper Tube + Matte Black Painted Aluminum Absorber" },
+              { "name": "Orion 400 Series", "note": "Copper Tube + Selective Aluminum Absorber" },
+              { "name": "Orion 500 Series", "note": "Copper Tube + Black Painted Copper Absorber" },
+              { "name": "Orion 600 Series", "note": "Copper Tube + Selective Copper Absorber" },
+              { "name": "Orion 700 Series", "note": "Copper Tube + Matte Black Painted Aluminum Absorber", "new": true },
+              { "name": "Orion 800 Series", "note": "Copper Tube + Selective Aluminum Absorber", "new": true },
+              { "name": "Orion 900 Series", "note": "Copper Tube + Selective Copper Absorber", "new": true }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "boylerler",
+        "title": "Boiler Series",
+        "desc": "Aquarious and Sirius series boilers; open and closed loop options, capacities from 93 to 500 liters.",
+        "groups": [
+          {
+            "items": [
+              { "name": "Aquarious 500 Series", "note": "93 L · 120 L · 150 L · 170 L" },
+              { "name": "Aquarious 540 Series — Closed Loop", "note": "150 L · 200 L · 300 L" },
+              { "name": "Aquarious 540 Series — Open Loop", "note": "150 L · 200 L · 300 L" },
+              { "name": "Sirius 540 Series — Flex Coil", "note": "200 L · 300 L" },
+              { "name": "Aquarious 740 Series — Closed Loop", "note": "500 L" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sehpalar",
+        "title": "Mounting Frames",
+        "desc": "Central and package system mounting frames; galvanized and aluminum options, OEM production available.",
+        "groups": [
+          {
+            "title": "Central System Frames",
+            "items": [
+              { "name": "Central System Flat Roof Galvanized Frame", "note": "2 mm" },
+              { "name": "Central System Flat Roof Galvanized Frame", "note": "3 mm" },
+              { "name": "Central System Flat Roof Stainless Steel Frame" },
+              { "name": "Central System Tile / Trapezoidal Roof Frame", "note": "5 mm" },
+              { "name": "Central System Profile Base Aluminum Roof Frame" },
+              { "name": "OEM Frame Production" }
+            ]
+          },
+          {
+            "title": "Package System Frames",
+            "items": [
+              { "name": "Helios 120 Series Package System Frame" },
+              { "name": "Helios 150S & 200S Series Package System Frame" },
+              { "name": "Helios 150L & 200L Series Package System Frame" },
+              { "name": "Helios 300S Series Package System Frame" },
+              { "name": "Helios 300L Series Package System Frame" },
+              { "name": "Helios 500S Series Package System Frame" },
+              { "name": "Helios 500L Series Package System Frame" },
+              { "name": "OEM Frame Production" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otomasyon",
+        "title": "Automation & Connection Equipment",
+        "desc": "Remote monitoring and automation panels, plus the connection equipment that completes the system.",
+        "groups": [
+          {
+            "title": "Automation & Remote Monitoring",
+            "items": [
+              { "name": "Contactor Automation Panel" },
+              { "name": "Card-Based Automation Panel" },
+              { "name": "AD598 Automatic Control Panel" },
+              { "name": "OEM Automation Panel" }
+            ]
+          },
+          {
+            "title": "Connection Equipment",
+            "items": [
+              { "name": "3/4\" Intermediate Connection Flex" },
+              { "name": "3/4\" Corner Connection Flex" },
+              { "name": "3/4\" Brass Blind Plug" },
+              { "name": "3/4\" & 1/2\" Ball Valve" },
+              { "name": "1/2\" Solar Air Vent" },
+              { "name": "Package System Insulated Flex Connection Kit" },
+              { "name": "Package System Safety Kit" },
+              { "name": "Solar Transfer Fluid" },
+              { "name": "Automatic Solar Fluid Feeding Unit" }
+            ]
+          }
+        ]
+      }
+    ]
   },
   "wizard": {
     "eyebrow": "System Finder",
@@ -138,10 +275,10 @@
     "results": {
       "helios-200l": "The most balanced solution for a standard household: boiler + two collectors, turnkey package.",
       "helios-300l": "Extended capacity for high demand: pressurized package with three collectors.",
-      "central": "At this scale we engineer an Orion 500 collector field + Aquarious central boiler combination; our team prepares a quote with the capacity calculation."
+      "central": "At this scale we engineer an Orion series collector field + Aquarious central boiler combination; our team prepares a quote with the capacity calculation."
     },
     "centralTitle": "Central System (Engineered)",
-    "centralModel": "ORION-500 × N + AQUARIOUS"
+    "centralModel": "ORION × N + AQUARIOUS"
   },
   "whyUs": {
     "eyebrow": "Why Şimşek",
@@ -164,10 +301,21 @@
     ]
   },
   "certs": {
-    "eyebrow": "Quality Assurance",
-    "title": "Tested to international standards",
-    "subtitle": "Every product family is independently tested against the relevant European and Turkish standards.",
-    "items": ["CE Compliance", "TSE Certificate", "Solar Keymark", "ISO 9001"]
+    "eyebrow": "Our Certificates",
+    "title": "Quality certified to international standards",
+    "subtitle": "Our products and management systems are audited and certified by national and international accredited bodies.",
+    "items": [
+      "TSE Certificate",
+      "CE Certificate",
+      "Solar Keymark Certificate",
+      "Domestic Goods Certificate",
+      "BAFA List",
+      "Dubai Certificate",
+      "ISO 9001",
+      "ISO 10002",
+      "ISO 14001",
+      "ISO 45001"
+    ]
   },
   "projectsTeaser": {
     "eyebrow": "Projects",
@@ -194,8 +342,8 @@
     "stats": [
       { "value": "1990", "label": "Founded" },
       { "value": "4", "label": "Group companies" },
-      { "value": "40,000+", "label": "Units in the field" },
-      { "value": "18+", "label": "Export markets" }
+      { "value": "240,000+", "label": "Systems in the field" },
+      { "value": "40+", "label": "Export markets" }
     ],
     "values": {
       "title": "What defines us",
@@ -240,8 +388,8 @@
   "products": {
     "hero": {
       "eyebrow": "Product Catalog",
-      "title": "Collectors, boilers, packages and smart systems",
-      "subtitle": "Choose the right capacity, review the technical sheet and drawings, and request a quote from our team."
+      "title": "Collectors, boilers, mounting frames and automation",
+      "subtitle": "Orion collector series, Aquarious and Sirius boilers, central and package system frames, automation panels and connection equipment."
     },
     "filters": {
       "all": "All",
@@ -438,6 +586,12 @@
         { "title": "Marketing material support", "desc": "We provide ready-made catalogs, technical sheets and field presentation materials." }
       ]
     },
+    "network": {
+      "eyebrow": "Dealer Network",
+      "title": "A dealer network across Türkiye",
+      "subtitle": "We will publish our dealers' locations on the map; contact us for the authorized dealer in your region.",
+      "mapNote": "Dealer locations coming soon"
+    },
     "form": {
       "title": "Dealer application form",
       "name": "Full Name",
@@ -459,10 +613,8 @@
       "subtitle": "Reach out for quotes, technical support, or anything outside our dealer program."
     },
     "info": {
-      "addressTitle": "Factory & Head Office",
-      "address": "Tarsus Organized Industrial Zone, Mersin, Türkiye",
-      "mapsUrl": "https://share.google/swwpukR48gXOD0hEs",
-      "directions": "Open in Maps",
+      "addressTitle": "Factory",
+      "address": "2nd Organized Industrial Zone, Rasim Dokur Boulevard No:32, Akdeniz, Mersin, Türkiye",
       "phoneTitle": "Phone",
       "phone": "+90 324 324 12 35",
       "emailTitle": "Email",

@@ -16,13 +16,13 @@
     "eyebrow": "1990'dan beri — 35. yıl",
     "titleLine1": "Enerjiyi doğadan alır,",
     "titleLine2": "geleceğe taşırız.",
-    "subtitle": "Şimşek Solar; Orion kolektörleri, Aquarious emayeli boylerleri ve Helios paket sistemlerini Mersin'deki tesislerinde üretir. Üretimden proje mühendisliğine, saha uygulamasından akıllı izlemeye kadar tüm süreç tek çatı altında.",
+    "subtitle": "Şimşek Solar; 35 yılı aşkın üretim birikimiyle güneş enerjisi sistemlerini Mersin'deki entegre tesislerinde tasarlar, üretir ve dünyanın dört bir yanına ulaştırır. Ar-Ge'den üretime, proje mühendisliğinden satış sonrası hizmetlere uzanan tüm değer zinciri tek çatı altında yönetilir.",
     "ctaPrimary": "Ürünleri İncele",
     "ctaSecondary": "Teklif İste",
     "stats": [
       { "value": 35, "suffix": "", "label": "Yıllık üretim tecrübesi" },
-      { "value": 40000, "suffix": "+", "label": "Sahada çalışan ünite" },
-      { "value": 18, "suffix": "+", "label": "İhracat yapılan ülke" }
+      { "value": 240000, "suffix": "+", "label": "Sahada çalışan sistem" },
+      { "value": 40, "suffix": "+", "label": "İhracat yapılan ülke" }
     ]
   },
   "group": {
@@ -35,25 +35,25 @@
         "id": "solar",
         "name": "Şimşek Solar",
         "tag": "Güneş Enerjisi Sistemleri",
-        "desc": "Orion kolektörler, Aquarious emaye boylerler ve Helios paket sistemlerin üreticisi. Konuttan askeri tesise sıcak suyun kaynağı."
+        "desc": "35 yılı aşkın tecrübesiyle Türkiye'nin köklü güneş enerjisi üreticilerinden. Orion kolektörler, Aquarious boylerler ve Helios paket sistemleri; Ar-Ge'den üretime, projelendirmeden satış sonrasına uçtan uca mühendislikle buluşturur."
       },
       {
         "id": "lipus",
         "name": "Lipus",
-        "tag": "Enerji Depolama & Güç Sistemleri",
-        "desc": "Yeni nesil enerji depolama ve güç elektroniği çözümleri; sistemlerinize kesintisiz güç."
+        "tag": "Akıllı Ev & Enerji Teknolojileri",
+        "desc": "Zero Carbon House vizyonuyla akıllı ev sistemleri geliştirir: enerjisini güneşten üreten, depolayan ve akıllıca yöneten sıfır karbon yaşam alanları tasarlar."
       },
       {
         "id": "yenilenebilir",
         "name": "Şimşek Yenilenebilir",
-        "tag": "Yenilenebilir Enerji Sistemleri",
-        "desc": "Güneş santralleri ve yenilenebilir enerji yatırımları; projelendirmeden işletmeye enerji dönüşümü."
+        "tag": "Satış · Servis · Taahhüt",
+        "desc": "Yenilenebilir enerjide satış, servis ve taahhüt hizmetlerini tek elden sunar: güneş santrali projelendirme, anahtar teslim kurulum, periyodik bakım ve işletme."
       },
       {
         "id": "smk",
         "name": "SMK Alüminyum",
-        "tag": "Alüminyum Profil & İşleme",
-        "desc": "Grubun ve sektörün alüminyum profil ihtiyacını karşılayan üretim gücü; kolektör kasalarının kaynağı."
+        "tag": "Alüminyum & Malzeme Tedariki",
+        "desc": "Hem alüminyum profil üreticisi hem de endüstriyel malzeme tedarik şirketi: grubun ve sektörün alüminyum ve malzeme ihtiyacını tek noktadan karşılar."
       }
     ]
   },
@@ -80,7 +80,7 @@
     ],
     "viewerLabel": "DİJİTAL İKİZ",
     "titleBlock": {
-      "model": "ORION-500",
+      "model": "ORION SERİSİ",
       "scale": "SOLIDWORKS MODEL",
       "dims": "2100 × 1200 × 95 mm",
       "code": "ŞS-TR-1990",
@@ -88,11 +88,148 @@
       "sheet": "SAYFA 01"
     }
   },
+  "production": {
+    "eyebrow": "Üretim Gücü",
+    "title": "Üretimin her adımı kendi bünyemizde",
+    "body": "Şimşek Solar, Mersin'deki entegre tesislerinde hammadde girişinden paketlemeye kadar üretimin tamamını kendi çatısı altında yürütür. Emaye fırını, CNC boru bükme, lazer kesim ve alüminyum profil hatlarının tek kampüste toplanması; yüksek kapasiteyi istikrarlı kaliteyle, kısa terminlerle ve rekabetçi maliyetle birleştirir. Her ürün, sahaya çıkmadan önce kalite kontrol istasyonlarından geçer.",
+    "stats": [
+      { "value": "11.575 m²", "label": "Üretim tesisi alanı" },
+      { "value": "900 / gün", "label": "Kolektör üretim kapasitesi" },
+      { "value": "150 / gün", "label": "Boyler üretim kapasitesi" },
+      { "value": "100.000+", "label": "Tamamlanan proje" }
+    ]
+  },
+  "calculator": {
+    "eyebrow": "Hesaplama",
+    "title": "Sistem boyutlandırma ve hesap raporu",
+    "subtitle": "Tüketiminize göre doğru kolektör ve boyler kapasitesini hesaplayın, raporunuzu alın.",
+    "soonTitle": "Hesaplama aracı çok yakında",
+    "soonBody": "Boyutlandırma ve hesap raporu aracımız bu sayfaya eklenecek. O zamana kadar teklif formu üzerinden ekibimizden hesap desteği alabilirsiniz."
+  },
+  "projectsMap": {
+    "eyebrow": "Proje Haritası",
+    "title": "71 ilde 449 proje, 30.000'i aşkın konut",
+    "subtitle": "Mersin'deki üretim üssümüzden Türkiye'nin dört bir yanına ve ihracat pazarlarına: tamamlanan projelerimizin ayak izi.",
+    "legend": {
+      "factory": "Üretim Tesisi",
+      "project": "Proje İli",
+      "export": "İhracat"
+    },
+    "tooltip": {
+      "projects": "proje",
+      "homes": "konut"
+    },
+    "note": "Baloncuk büyüklüğü proje sayısını gösterir"
+  },
   "productsSection": {
     "eyebrow": "Ürün Ailesi",
-    "title": "Orion, Aquarious, Helios ve Akıllı Sistemler",
-    "subtitle": "Kolektörden boylere, paket sistemden uzaktan izlemeye; her kurulum tipine uygun çözüm.",
+    "title": "Kolektörden otomasyona eksiksiz ürün gamı",
+    "subtitle": "Orion kolektörler, Aquarious ve Sirius boylerler, merkezi ve paket sistem sehpaları, otomasyon ve bağlantı ekipmanları.",
     "viewAll": "Tüm ürünleri gör"
+  },
+  "catalog": {
+    "newBadge": "Yeni Tasarım · Yeni Ürün",
+    "seriesLabel": "Seri",
+    "detailSoon": "Detay sayfası hazırlanıyor",
+    "families": [
+      {
+        "id": "kolektorler",
+        "title": "Kolektörler",
+        "desc": "Orion serisi düz yüzeyli güneş kolektörleri; boru ve absorber kombinasyonuna göre dokuz farklı seri.",
+        "groups": [
+          {
+            "items": [
+              { "name": "Orion 100 Serisi", "note": "Alüminyum Boru + Alüminyum Siyah Mat Boyalı Absorber" },
+              { "name": "Orion 200 Serisi", "note": "Alüminyum Boru + Alüminyum Selektif Absorber" },
+              { "name": "Orion 300 Serisi", "note": "Bakır Boru + Alüminyum Siyah Mat Boyalı Absorber" },
+              { "name": "Orion 400 Serisi", "note": "Bakır Boru + Alüminyum Selektif Absorber" },
+              { "name": "Orion 500 Serisi", "note": "Bakır Boru + Bakır Siyah Boyalı Absorber" },
+              { "name": "Orion 600 Serisi", "note": "Bakır Boru + Bakır Selektif Absorber" },
+              { "name": "Orion 700 Serisi", "note": "Bakır Boru + Alüminyum Siyah Mat Boyalı Absorber", "new": true },
+              { "name": "Orion 800 Serisi", "note": "Bakır Boru + Alüminyum Selektif Absorber", "new": true },
+              { "name": "Orion 900 Serisi", "note": "Bakır Boru + Bakır Selektif Absorber", "new": true }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "boylerler",
+        "title": "Boyler Serisi",
+        "desc": "Aquarious ve Sirius serisi boylerler; açık ve kapalı devre seçenekleri, 93 litreden 500 litreye kapasite.",
+        "groups": [
+          {
+            "items": [
+              { "name": "Aquarious 500 Serisi", "note": "93 Litre · 120 Litre · 150 Litre · 170 Litre" },
+              { "name": "Aquarious 540 Serisi — Kapalı Devre", "note": "150 Litre · 200 Litre · 300 Litre" },
+              { "name": "Aquarious 540 Serisi — Açık Devre", "note": "150 Litre · 200 Litre · 300 Litre" },
+              { "name": "Sirius 540 Serisi — Fleks Serpantinli", "note": "200 Litre · 300 Litre" },
+              { "name": "Aquarious 740 Serisi — Kapalı Devre", "note": "500 Litre" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sehpalar",
+        "title": "Sehpalar",
+        "desc": "Merkezi sistem ve paket sistem sehpaları; galvaniz ve alüminyum seçenekleri, OEM üretim imkânı.",
+        "groups": [
+          {
+            "title": "Merkezi Sistem Sehpaları",
+            "items": [
+              { "name": "Merkezi Sistem Teras Çatı Galvaniz Sehpa", "note": "2 mm" },
+              { "name": "Merkezi Sistem Teras Çatı Galvaniz Sehpa", "note": "3 mm" },
+              { "name": "Merkezi Sistem Teras Çatı Paslanmaz Sehpa" },
+              { "name": "Merkezi Sistem Kiremit / Trapez Çatı Sehpası", "note": "5 mm" },
+              { "name": "Merkezi Sistem Profil Kaide Çatı Alüminyum Sehpa" },
+              { "name": "OEM Sehpa Üretimleri" }
+            ]
+          },
+          {
+            "title": "Paket Sistem Sehpaları",
+            "items": [
+              { "name": "Helios 120 Serisi Paket Sistem Sehpası" },
+              { "name": "Helios 150S ve 200S Serisi Paket Sistem Sehpası" },
+              { "name": "Helios 150L ve 200L Serisi Paket Sistem Sehpası" },
+              { "name": "Helios 300S Serisi Paket Sistem Sehpası" },
+              { "name": "Helios 300L Serisi Paket Sistem Sehpası" },
+              { "name": "Helios 500S Serisi Paket Sistem Sehpası" },
+              { "name": "Helios 500L Serisi Paket Sistem Sehpası" },
+              { "name": "OEM Sehpa Üretimleri" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otomasyon",
+        "title": "Otomasyon ve Bağlantı Ekipmanları",
+        "desc": "Uzaktan izleme ve otomasyon panoları ile sistemi tamamlayan bağlantı ekipmanları.",
+        "groups": [
+          {
+            "title": "Otomasyon ve Uzaktan İzleme",
+            "items": [
+              { "name": "Kontaktörlü Otomasyon Panosu" },
+              { "name": "Kartlı Otomasyon Panosu" },
+              { "name": "AD598 Otomatik Kontrol Paneli" },
+              { "name": "OEM Otomasyon Panosu" }
+            ]
+          },
+          {
+            "title": "Bağlantı Ekipmanları",
+            "items": [
+              { "name": "3/4\" Ara Bağlantı Fleksi" },
+              { "name": "3/4\" Köşe Bağlantı Fleksi" },
+              { "name": "3/4\" Pirinç Kör Tapa" },
+              { "name": "3/4\" & 1/2\" Küresel Vana" },
+              { "name": "1/2\" Solar Hava Purjörü" },
+              { "name": "Paket Sistem İzoleli Fleks Bağlantı Kiti" },
+              { "name": "Paket Sistem Emniyet Kiti" },
+              { "name": "Solar Transfer Sıvısı" },
+              { "name": "Otomatik Solar Sıvı Besleme Ünitesi" }
+            ]
+          }
+        ]
+      }
+    ]
   },
   "wizard": {
     "eyebrow": "Sistem Sihirbazı",
@@ -138,10 +275,10 @@
     "results": {
       "helios-200l": "Standart bir hane için en dengeli çözüm: boyler + iki kolektör, anahtar teslim paket.",
       "helios-300l": "Yüksek tüketim için genişletilmiş kapasite: üç kolektörlü basınçlı paket.",
-      "central": "Bu ölçek için Orion 500 kolektör tarlası + Aquarious merkezi boyler kombinasyonu projelendirilir; mühendislik ekibimiz kapasite hesabıyla birlikte teklif hazırlar."
+      "central": "Bu ölçek için Orion serisi kolektör tarlası + Aquarious merkezi boyler kombinasyonu projelendirilir; mühendislik ekibimiz kapasite hesabıyla birlikte teklif hazırlar."
     },
     "centralTitle": "Merkezi Sistem (Projeli)",
-    "centralModel": "ORION-500 × N + AQUARIOUS"
+    "centralModel": "ORION × N + AQUARIOUS"
   },
   "whyUs": {
     "eyebrow": "Neden Şimşek",
@@ -164,10 +301,21 @@
     ]
   },
   "certs": {
-    "eyebrow": "Kalite Güvencesi",
-    "title": "Uluslararası standartlarda test edilmiş",
-    "subtitle": "Her ürün grubu, ilgili Avrupa ve Türk standartlarına göre bağımsız laboratuvarlarda test edilir.",
-    "items": ["CE Uygunluk", "TSE Belgesi", "Solar Keymark", "ISO 9001"]
+    "eyebrow": "Belgelerimiz",
+    "title": "Uluslararası standartlarda belgelendirilmiş kalite",
+    "subtitle": "Ürünlerimiz ve yönetim sistemlerimiz, ulusal ve uluslararası akredite kuruluşlar tarafından denetlenir ve belgelendirilir.",
+    "items": [
+      "TSE Belgesi",
+      "CE Belgesi",
+      "Solar Keymark Belgesi",
+      "Yerli Malı Belgesi",
+      "BAFA List",
+      "Dubai Sertifika",
+      "ISO 9001",
+      "ISO 10002",
+      "ISO 14001",
+      "ISO 45001"
+    ]
   },
   "projectsTeaser": {
     "eyebrow": "Referanslar",
@@ -194,8 +342,8 @@
     "stats": [
       { "value": "1990", "label": "Kuruluş" },
       { "value": "4", "label": "Grup şirketi" },
-      { "value": "40.000+", "label": "Sahada çalışan ünite" },
-      { "value": "18+", "label": "İhracat yapılan ülke" }
+      { "value": "240.000+", "label": "Sahada çalışan sistem" },
+      { "value": "40+", "label": "İhracat yapılan ülke" }
     ],
     "values": {
       "title": "Bizi biz yapan ilkeler",
@@ -240,8 +388,8 @@
   "products": {
     "hero": {
       "eyebrow": "Ürün Kataloğu",
-      "title": "Kolektörler, boylerler, paketler ve akıllı sistemler",
-      "subtitle": "İhtiyacınıza uygun kapasiteyi seçin, teknik föyü ve çizimleri inceleyin, ekibimizden teklif isteyin."
+      "title": "Kolektörler, boylerler, sehpalar ve otomasyon",
+      "subtitle": "Orion kolektör serileri, Aquarious ve Sirius boylerler, merkezi ve paket sistem sehpaları, otomasyon panoları ve bağlantı ekipmanları."
     },
     "filters": {
       "all": "Tümü",
@@ -438,6 +586,12 @@
         { "title": "Pazarlama materyali desteği", "desc": "Katalog, teknik föy ve saha sunumları için hazır materyal sağlarız." }
       ]
     },
+    "network": {
+      "eyebrow": "Bayi Ağımız",
+      "title": "Türkiye genelinde bayi ağı",
+      "subtitle": "Bayilerimizin konumlarını haritada yayınlayacağız; bölgenizdeki yetkili bayi için bizimle iletişime geçebilirsiniz.",
+      "mapNote": "Bayi noktaları yakında haritada"
+    },
     "form": {
       "title": "Bayilik başvuru formu",
       "name": "Ad Soyad",
@@ -459,10 +613,8 @@
       "subtitle": "Teklif, teknik destek veya bayilik dışındaki tüm sorularınız için bize ulaşın."
     },
     "info": {
-      "addressTitle": "Fabrika ve Merkez Ofis",
-      "address": "Tarsus Organize Sanayi Bölgesi, Mersin, Türkiye",
-      "mapsUrl": "https://share.google/swwpukR48gXOD0hEs",
-      "directions": "Haritada aç",
+      "addressTitle": "Fabrika",
+      "address": "2. Organize Sanayi Bölgesi Rasim Dokur Bulvarı No:32, Akdeniz, Mersin, Türkiye",
       "phoneTitle": "Telefon",
       "phone": "+90 324 324 12 35",
       "emailTitle": "E-posta",
