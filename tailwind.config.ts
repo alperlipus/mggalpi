@@ -59,6 +59,10 @@ const config: Config = {
           500: "#2da8ff",
           600: "#1c8ee0",
         },
+        aqua: {
+          500: "#02b7d4",
+          600: "#007a8f",
+        },
       },
       fontFamily: {
         display: ["var(--font-display)", "sans-serif"],

@@ -1,5 +1,5 @@
 import { getTranslations } from 'next-intl/server';
-import { Calculator } from 'lucide-react';
+import { Calculator, ArrowUpRight } from 'lucide-react';
 import { PageHero } from '@/components/PageHero';
 import { CALC_EMBED_URL } from '@/data/config';
 
@@ -12,15 +12,28 @@ export default async function CalculatorPage() {
       <section className="section-pad bg-white">
         <div className="container-page">
           {CALC_EMBED_URL ? (
-            <div className="overflow-hidden rounded-2xl border border-mist-900/10 shadow-card">
-              <iframe
-                src={CALC_EMBED_URL}
-                title={t('title')}
-                className="h-[80vh] min-h-[560px] w-full border-0"
-                loading="lazy"
-                allowFullScreen
-              />
-            </div>
+            <>
+              <div className="mb-4 flex justify-end">
+                <a
+                  href={CALC_EMBED_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 text-sm font-semibold text-graphite-700 hover:text-volt-700"
+                >
+                  {t('openFull')}
+                  <ArrowUpRight size={15} className="rtl:-scale-x-100" />
+                </a>
+              </div>
+              <div className="overflow-hidden rounded-2xl border border-mist-900/10 shadow-card">
+                <iframe
+                  src={CALC_EMBED_URL}
+                  title={t('title')}
+                  className="h-[80vh] min-h-[560px] w-full border-0"
+                  loading="lazy"
+                  allowFullScreen
+                />
+              </div>
+            </>
           ) : (
             <div className="mx-auto flex max-w-lg flex-col items-center rounded-2xl border border-dashed border-mist-900/20 bg-mist-50 px-8 py-16 text-center">
               <span className="flex h-14 w-14 items-center justify-center rounded-2xl bg-volt-100 text-volt-700">

@@ -9,6 +9,7 @@
     "products": "Products",
     "projects": "Projects",
     "resources": "Resources",
+    "calculator": "Calculator",
     "contact": "Contact",
     "getQuote": "Get a Quote"
   },
@@ -104,7 +105,8 @@
     "title": "System sizing and calculation report",
     "subtitle": "Size the right collector and boiler capacity for your consumption and get your report.",
     "soonTitle": "Calculation tool coming soon",
-    "soonBody": "Our sizing and calculation report tool will be embedded on this page. Until then, our team can run the calculation for you via the quote form."
+    "soonBody": "Our sizing and calculation report tool will be embedded on this page. Until then, our team can run the calculation for you via the quote form.",
+    "openFull": "Open in a new tab"
   },
   "projectsMap": {
     "eyebrow": "Project Map",
@@ -119,7 +121,13 @@
       "projects": "projects",
       "homes": "homes"
     },
-    "note": "Bubble size reflects project count"
+    "note": "Bubble size reflects project count",
+    "canvasLabel": "Installation map spanning from our Mersin production plant to reference points across Türkiye and the world",
+    "toggle": {
+      "label": "Map view",
+      "turkey": "Türkiye",
+      "world": "World"
+    }
   },
   "productsSection": {
     "eyebrow": "Product Range",

@@ -1,7 +1,7 @@
 import { useTranslations } from 'next-intl';
-import Image from 'next/image';
-import { Sun, Droplets, Layers, Cpu, Sparkles } from 'lucide-react';
+import { Sun, Droplets, Layers, Cpu } from 'lucide-react';
 import { Reveal } from '@/components/Reveal';
+import { ProductShelf } from '@/components/ProductShelf';
 import { catalogImages } from '@/data/catalogImages';
 
 interface CatalogItem {
@@ -29,6 +29,14 @@ const familyIcon: Record<string, typeof Sun> = {
   otomasyon: Cpu,
 };
 
+/* Aile başına raf vurgu rengi — mevcut Tailwind paletinden. */
+const familyAccent: Record<string, string> = {
+  kolektorler: '#f6bc32', // volt-500
+  boylerler: '#02b7d4', // aqua-500
+  sehpalar: '#2da8ff', // spark-500
+  otomasyon: '#3a4d97', // graphite-500
+};
+
 export function ProductFamilies() {
   const t = useTranslations('catalog');
   const families = t.raw('families') as CatalogFamily[];
@@ -37,6 +45,7 @@ export function ProductFamilies() {
     <div className="space-y-20">
       {families.map((family) => {
         const Icon = familyIcon[family.id] ?? Sun;
+        const accent = familyAccent[family.id] ?? '#f6bc32';
         return (
           <section key={family.id} id={family.id} className="scroll-mt-28">
             <Reveal>
@@ -57,6 +66,12 @@ export function ProductFamilies() {
 
             {family.groups.map((group, gi) => {
               const images = catalogImages[`${family.id}-${gi}`] ?? [];
+              const shelfItems = group.items.map((item, ii) => ({
+                name: item.name,
+                note: item.note,
+                isNew: item.new,
+                image: images[ii] ?? null,
+              }));
               return (
                 <div key={group.title ?? gi} className="mt-8">
                   {group.title && (
@@ -67,43 +82,16 @@ export function ProductFamilies() {
                       </h3>
                     </Reveal>
                   )}
-                  <div className={`grid gap-4 sm:grid-cols-2 lg:grid-cols-3 ${group.title ? 'mt-5' : ''}`}>
-                    {group.items.map((item, ii) => {
-                      const img = images[ii] ?? null;
-                      return (
-                        <Reveal key={`${item.name}-${ii}`} delay={Math.min(ii * 0.04, 0.3)}>
-                          <div className="group relative flex h-full flex-col overflow-hidden rounded-xl border border-mist-900/10 bg-white shadow-sm transition-all hover:-translate-y-0.5 hover:border-volt-500/40 hover:shadow-md">
-                            {img && (
-                              <div className="relative flex h-44 items-center justify-center overflow-hidden border-b border-mist-900/8 bg-white p-4">
-                                <Image
-                                  src={img}
-                                  alt={item.name}
-                                  fill
-                                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                                  className="object-contain p-3 transition-transform duration-500 group-hover:scale-[1.04]"
-                                />
-                              </div>
-                            )}
-                            <div className="flex flex-1 flex-col p-5">
-                              {item.new && (
-                                <span className="absolute end-3 top-3 inline-flex items-center gap-1 rounded-full bg-solar-gradient px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wide text-graphite-900">
-                                  <Sparkles size={10} />
-                                  {t('newBadge')}
-                                </span>
-                              )}
-                              <h4 className="font-display text-base font-bold text-graphite-950">{item.name}</h4>
-                              {item.note && (
-                                <p className="mt-1.5 font-mono text-[11px] leading-relaxed tracking-wide text-mist-600">
-                                  {item.note}
-                                </p>
-                              )}
-                              <p className="mt-auto pt-3 text-xs font-medium text-mist-500">{t('detailSoon')}</p>
-                            </div>
-                          </div>
-                        </Reveal>
-                      );
-                    })}
-                  </div>
+                  <Reveal delay={0.05} className={group.title ? 'mt-5 block' : 'block'}>
+                    <ProductShelf
+                      items={shelfItems}
+                      accent={accent}
+                      fallbackIcon={<Icon size={56} strokeWidth={1.25} className="text-white/25" />}
+                      groupLabel={group.title ?? family.title}
+                      detailSoonLabel={t('detailSoon')}
+                      newLabel={t('newBadge')}
+                    />
+                  </Reveal>
                 </div>
               );
             })}

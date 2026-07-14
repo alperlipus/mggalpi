@@ -9,6 +9,7 @@
     "products": "Ürünler",
     "projects": "Referanslar",
     "resources": "Kaynaklar",
+    "calculator": "Hesaplama Aracı",
     "contact": "İletişim",
     "getQuote": "Teklif Al"
   },
@@ -104,7 +105,8 @@
     "title": "Sistem boyutlandırma ve hesap raporu",
     "subtitle": "Tüketiminize göre doğru kolektör ve boyler kapasitesini hesaplayın, raporunuzu alın.",
     "soonTitle": "Hesaplama aracı çok yakında",
-    "soonBody": "Boyutlandırma ve hesap raporu aracımız bu sayfaya eklenecek. O zamana kadar teklif formu üzerinden ekibimizden hesap desteği alabilirsiniz."
+    "soonBody": "Boyutlandırma ve hesap raporu aracımız bu sayfaya eklenecek. O zamana kadar teklif formu üzerinden ekibimizden hesap desteği alabilirsiniz.",
+    "openFull": "Yeni sekmede aç"
   },
   "projectsMap": {
     "eyebrow": "Proje Haritası",
@@ -119,7 +121,13 @@
       "projects": "proje",
       "homes": "konut"
     },
-    "note": "Baloncuk büyüklüğü proje sayısını gösterir"
+    "note": "Baloncuk büyüklüğü proje sayısını gösterir",
+    "canvasLabel": "Mersin'deki üretim tesisinden Türkiye ve dünyadaki referans noktalarına uzanan kurulum haritası",
+    "toggle": {
+      "label": "Harita görünümü",
+      "turkey": "Türkiye",
+      "world": "Dünya"
+    }
   },
   "productsSection": {
     "eyebrow": "Ürün Ailesi",

@@ -7,8 +7,8 @@ import { Link } from '@/i18n/navigation';
 import { projects } from '@/data/projects';
 import { Reveal } from '@/components/Reveal';
 
-const LeafletProjectsMap = dynamic(
-  () => import('./LeafletProjectsMap').then((m) => m.LeafletProjectsMap),
+const ReferenceDotMap = dynamic(
+  () => import('./ReferenceDotMap').then((m) => m.ReferenceDotMap),
   {
     ssr: false,
     loading: () => (
@@ -91,8 +91,8 @@ export function ReferencesMapSection() {
           {/* Map — light, blends with the page */}
           <Reveal delay={0.1}>
             <div className="relative h-full min-h-[420px] overflow-hidden rounded-2xl border border-mist-900/10 bg-white shadow-card">
-              <LeafletProjectsMap />
-              <span className="pointer-events-none absolute bottom-3 start-3 z-[500] rounded-full bg-white/90 px-3 py-1 font-mono text-[10px] uppercase tracking-[0.12em] text-mist-600 shadow-sm backdrop-blur-sm">
+              <ReferenceDotMap />
+              <span className="pointer-events-none absolute bottom-3 end-3 z-10 rounded-full bg-white/90 px-3 py-1 font-mono text-[10px] uppercase tracking-[0.12em] text-mist-600 shadow-sm backdrop-blur-sm">
                 {t('note')}
               </span>
             </div>
