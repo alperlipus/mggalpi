@@ -1,0 +1,509 @@
+{
+  "meta": {
+    "title": "Şimşek Solar — Güneş Enerjisi Sistemleri | Bir Şimşek Grup Kuruluşu",
+    "description": "35 yıldır Mersin'den dünyaya: Orion kolektörler, Aquarious emayeli boylerler, Helios paket sistemler ve akıllı izleme çözümleri. Üretimden saha uygulamasına tek çatı altında mühendislik."
+  },
+  "nav": {
+    "brand": "Şimşek Solar",
+    "group": "Grup",
+    "products": "Ürünler",
+    "projects": "Referanslar",
+    "resources": "Kaynaklar",
+    "contact": "İletişim",
+    "getQuote": "Teklif Al"
+  },
+  "hero": {
+    "eyebrow": "1990'dan beri — 35. yıl",
+    "titleLine1": "Enerjiyi doğadan alır,",
+    "titleLine2": "geleceğe taşırız.",
+    "subtitle": "Şimşek Solar; Orion kolektörleri, Aquarious emayeli boylerleri ve Helios paket sistemlerini Mersin'deki tesislerinde üretir. Üretimden proje mühendisliğine, saha uygulamasından akıllı izlemeye kadar tüm süreç tek çatı altında.",
+    "ctaPrimary": "Ürünleri İncele",
+    "ctaSecondary": "Teklif İste",
+    "stats": [
+      { "value": 35, "suffix": "", "label": "Yıllık üretim tecrübesi" },
+      { "value": 40000, "suffix": "+", "label": "Sahada çalışan ünite" },
+      { "value": 18, "suffix": "+", "label": "İhracat yapılan ülke" }
+    ]
+  },
+  "group": {
+    "eyebrow": "Şirketler Grubu",
+    "parentLabel": "Ana şirket",
+    "title": "Tek vizyon, dört kuvvet",
+    "body": "Şimşek Solar, Şimşek Grup çatısı altındadır. Bir holding altında birbirini tamamlayan dört şirket: üretimden kuruluma, enerjiden malzemeye zincirin her halkası kendi ellerimizde.",
+    "companies": [
+      {
+        "id": "solar",
+        "name": "Şimşek Solar",
+        "tag": "Güneş Enerjisi Sistemleri",
+        "desc": "Orion kolektörler, Aquarious emaye boylerler ve Helios paket sistemlerin üreticisi. Konuttan askeri tesise sıcak suyun kaynağı."
+      },
+      {
+        "id": "lipus",
+        "name": "Lipus",
+        "tag": "Enerji Depolama & Güç Sistemleri",
+        "desc": "Yeni nesil enerji depolama ve güç elektroniği çözümleri; sistemlerinize kesintisiz güç."
+      },
+      {
+        "id": "yenilenebilir",
+        "name": "Şimşek Yenilenebilir",
+        "tag": "Yenilenebilir Enerji Sistemleri",
+        "desc": "Güneş santralleri ve yenilenebilir enerji yatırımları; projelendirmeden işletmeye enerji dönüşümü."
+      },
+      {
+        "id": "smk",
+        "name": "SMK Alüminyum",
+        "tag": "Alüminyum Profil & İşleme",
+        "desc": "Grubun ve sektörün alüminyum profil ihtiyacını karşılayan üretim gücü; kolektör kasalarının kaynağı."
+      }
+    ]
+  },
+  "vision": {
+    "eyebrow": "Vizyonumuz",
+    "lines": [
+      "Yenilenebilir enerji üretiyoruz.",
+      "Geleceğe yatırım yapıyoruz.",
+      "Güneşi, yarının enerjisine dönüştürüyoruz."
+    ],
+    "footer": "Doğadan aldığımız gücü; kaliteyle, sorumlulukla ve 35 yıllık mühendislik birikimiyle işliyoruz."
+  },
+  "anatomy": {
+    "eyebrow": "Teknik Kesit",
+    "title": "Bir Orion panelinin montajı",
+    "body": "Gerçek SolidWorks katı modelinden: sayfayı kaydırdıkça Orion kolektörü katman katman kurulur, sonunda patlatılmış görünümde bütün parçalarıyla karşınızda.",
+    "hint": "Kaydırarak kurun",
+    "layers": [
+      { "no": "01", "name": "Alüminyum kasa", "spec": "SMK Alüminyum eloksallı profil gövde" },
+      { "no": "02", "name": "Taş yünü yalıtım", "spec": "45 mm — A1 sınıfı, ısı kaybına karşı" },
+      { "no": "03", "name": "Selektif absorber", "spec": "Ti-N kaplama — α ≥ %95, bakır harp boru" },
+      { "no": "04", "name": "Temperli cam", "spec": "4 mm, düşük demirli — %91 ışık geçirgenliği" },
+      { "no": "05", "name": "Patlatılmış görünüm", "spec": "Tüm katmanlar — komple montaj seti" }
+    ],
+    "viewerLabel": "DİJİTAL İKİZ",
+    "titleBlock": {
+      "model": "ORION-500",
+      "scale": "SOLIDWORKS MODEL",
+      "dims": "2100 × 1200 × 95 mm",
+      "code": "ŞS-TR-1990",
+      "rev": "REV C",
+      "sheet": "SAYFA 01"
+    }
+  },
+  "productsSection": {
+    "eyebrow": "Ürün Ailesi",
+    "title": "Orion, Aquarious, Helios ve Akıllı Sistemler",
+    "subtitle": "Kolektörden boylere, paket sistemden uzaktan izlemeye; her kurulum tipine uygun çözüm.",
+    "viewAll": "Tüm ürünleri gör"
+  },
+  "wizard": {
+    "eyebrow": "Sistem Sihirbazı",
+    "title": "Birkaç adımda doğru sistemi bulun",
+    "body": "Üç soruya yanıt verin; kullanım tipinize ve tüketiminize göre doğru Şimşek sistemini önerelim.",
+    "steps": {
+      "segment": "Nerede kullanılacak?",
+      "size": "Ölçek nedir?",
+      "smart": "Uzaktan izleme ister misiniz?"
+    },
+    "segments": {
+      "home": { "title": "Konut", "desc": "Müstakil ev veya daire" },
+      "commercial": { "title": "Otel & Ticari", "desc": "Otel, yurt, spor tesisi" },
+      "industrial": { "title": "Endüstri & Kamu", "desc": "Fabrika, askeri tesis, toplu konut" }
+    },
+    "sizes": {
+      "home": [
+        { "id": "s", "title": "2-3 kişi", "desc": "Küçük hane" },
+        { "id": "m", "title": "4-5 kişi", "desc": "Standart hane" },
+        { "id": "l", "title": "6-8 kişi", "desc": "Kalabalık hane" }
+      ],
+      "commercial": [
+        { "id": "s", "title": "≤ 30 oda / kişi", "desc": "Butik ölçek" },
+        { "id": "m", "title": "30-80 oda / kişi", "desc": "Orta ölçek" },
+        { "id": "l", "title": "80+ oda / kişi", "desc": "Büyük ölçek" }
+      ],
+      "industrial": [
+        { "id": "s", "title": "Proses ön ısıtma", "desc": "Endüstriyel su" },
+        { "id": "m", "title": "Merkezi sıcak su", "desc": "Tesis geneli" },
+        { "id": "l", "title": "Toplu konut", "desc": "Çok blok" }
+      ]
+    },
+    "smartOptions": {
+      "yes": { "title": "Evet", "desc": "ŞimşekTrack ile uzaktan izleme" },
+      "no": { "title": "Şimdilik hayır", "desc": "Sonradan eklenebilir" }
+    },
+    "back": "Geri",
+    "restart": "Baştan başla",
+    "resultEyebrow": "Önerilen sistem",
+    "resultCta": "Bu sistem için teklif iste",
+    "resultDetail": "Ürünü incele",
+    "addonLabel": "Önerilen ek",
+    "results": {
+      "helios-200l": "Standart bir hane için en dengeli çözüm: boyler + iki kolektör, anahtar teslim paket.",
+      "helios-300l": "Yüksek tüketim için genişletilmiş kapasite: üç kolektörlü basınçlı paket.",
+      "central": "Bu ölçek için Orion 500 kolektör tarlası + Aquarious merkezi boyler kombinasyonu projelendirilir; mühendislik ekibimiz kapasite hesabıyla birlikte teklif hazırlar."
+    },
+    "centralTitle": "Merkezi Sistem (Projeli)",
+    "centralModel": "ORION-500 × N + AQUARIOUS"
+  },
+  "whyUs": {
+    "eyebrow": "Neden Şimşek",
+    "title": "Sahada kanıtlanmış mühendislik",
+    "items": [
+      { "title": "Kendi üretim tesisi", "desc": "Emaye kaplamadan alüminyum profile kadar tüm süreç grup şirketlerimizde, dışarıya bağımlı kalmadan yürütülür." },
+      { "title": "Sertifikalı kalite", "desc": "Ürünlerimiz CE, TSE ve Solar Keymark testlerinden geçer; her seri numarası geriye dönük izlenebilir." },
+      { "title": "Proje ve saha desteği", "desc": "Mühendislik ekibimiz proje aşamasından saha uygulamasına ve devreye almaya kadar sizinle birlikte çalışır." },
+      { "title": "Akıllı sistemler", "desc": "Şimşek.ai ve akıllı kontrolörlerimizle sistem performansını uzaktan izler, verimliliği veriyle optimize ederiz." }
+    ]
+  },
+  "process": {
+    "eyebrow": "Süreç",
+    "title": "Teklif isteğinden devreye almaya",
+    "steps": [
+      { "title": "İhtiyaç analizi", "desc": "Hane veya tesis su tüketiminize göre doğru kapasiteyi birlikte belirliyoruz." },
+      { "title": "Proje ve mühendislik", "desc": "Çatı yapısı ve konuma özel sistem şeması, statik hesap ve teknik çizimlerle detaylı teklif hazırlıyoruz." },
+      { "title": "Üretim ve sevkiyat", "desc": "Sipariş, Mersin tesislerimizde üretilip güvenli paketleme ile sahaya ulaştırılır." },
+      { "title": "Saha uygulaması ve izleme", "desc": "Kendi saha ekibimiz kurulumu tamamlar, isteğe bağlı uzaktan izleme sistemine bağlar." }
+    ]
+  },
+  "certs": {
+    "eyebrow": "Kalite Güvencesi",
+    "title": "Uluslararası standartlarda test edilmiş",
+    "subtitle": "Her ürün grubu, ilgili Avrupa ve Türk standartlarına göre bağımsız laboratuvarlarda test edilir.",
+    "items": ["CE Uygunluk", "TSE Belgesi", "Solar Keymark", "ISO 9001"]
+  },
+  "projectsTeaser": {
+    "eyebrow": "Referanslar",
+    "title": "Kamu, konut ve otelden ihracata",
+    "subtitle": "Askeri tesislerden otel projelerine, Türkiye ve ihracat pazarlarında tamamladığımız işlerden bir seçki.",
+    "cta": "Tüm referansları gör"
+  },
+  "ctaBand": {
+    "title": "Projeniz için doğru sistemi birlikte belirleyelim",
+    "subtitle": "Kapasite hesaplamasından bayi başvurusuna, ihtiyacınıza göre en uygun çözümü 24 saat içinde teklif olarak size iletelim.",
+    "cta": "Hemen Teklif İste"
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "Hakkımızda",
+      "title": "Mersin'den Akdeniz'e, Akdeniz'den dünyaya",
+      "subtitle": "Şimşek Grup, 35 yıldır güneş enerjisi sistemleri, yenilenebilir enerji, enerji depolama ve alüminyum üretiminde faaliyet gösteren bağımsız bir Türk grubudur."
+    },
+    "story": {
+      "title": "Hikayemiz",
+      "body1": "Mersin'in güneş potansiyelini değerlendirmek amacıyla kurulan Şimşek, bugün dört şirketli bir grup yapısına ve yılda binlerce üniteyi bulan üretim kapasitesine ulaştı. Kuruluşumuzdan bu yana amacımız değişmedi: dayanıklı, verimli ve bakım maliyeti düşük sistemler üretmek.",
+      "body2": "Bugün ürünlerimiz askeri tesisler, oteller ve toplu konutların yanı sıra ihracat pazarlarında da yer alıyor. Ar-Ge ekibimiz, absorban kaplama verimliliğinden emaye reçetesine, akıllı izleme yazılımımıza kadar her bileşeni sürekli geliştiriyor."
+    },
+    "stats": [
+      { "value": "1990", "label": "Kuruluş" },
+      { "value": "4", "label": "Grup şirketi" },
+      { "value": "40.000+", "label": "Sahada çalışan ünite" },
+      { "value": "18+", "label": "İhracat yapılan ülke" }
+    ],
+    "values": {
+      "title": "Bizi biz yapan ilkeler",
+      "items": [
+        { "title": "Dayanıklılık önce gelir", "desc": "Her ürünü, üreticinin değil kullanıcının bakış açısıyla; on yıllar sürecek şekilde tasarlarız." },
+        { "title": "Şeffaf mühendislik", "desc": "Teknik föylerimizde gerçek test değerlerini paylaşırız, abartılı verimlilik iddialarından kaçınırız." },
+        { "title": "Üretimden otomasyona bütünlük", "desc": "Üretici, proje mühendisi, saha uygulayıcısı ve teknoloji sağlayıcısı rollerini tek çatı altında topluyoruz." }
+      ]
+    },
+    "facility": {
+      "title": "Üretim tesislerimiz",
+      "body": "Emaye fırını, CNC boru bükme hattı, lazer kesim, alüminyum profil hattı ve otomatik kaynak istasyonlarından oluşan tesislerimizde, hammadde girişinden paketlemeye kadar tüm adımlar kalite kontrol noktalarından geçer."
+    }
+  },
+  "resources": {
+    "hero": {
+      "eyebrow": "Teknik Kaynaklar",
+      "title": "Katalog, çizim ve sertifikalara tek noktadan erişin",
+      "subtitle": "Proje mühendisleri ve bayilerimiz için tüm ürün ailelerine ait teknik dosyalar, CAD çizimleri ve sertifikalar tek bir arşivde."
+    },
+    "filters": {
+      "all": "Tümü",
+      "catalog": "Kataloglar",
+      "manual": "Kurulum Kılavuzları",
+      "certificate": "Sertifikalar",
+      "drawing": "Teknik Çizimler",
+      "cad": "CAD / BIM",
+      "datasheet": "Teknik Föyler"
+    },
+    "downloadSelected": "Seçilenleri indir",
+    "selectAll": "Tümünü seç",
+    "productDocsTitle": "Ürün bazlı teknik dosyalar",
+    "generalDocsTitle": "Genel dökümanlar ve sertifikalar",
+    "generalDocs": [
+      { "name": "Şimşek Grup Kurumsal Tanıtım", "type": "catalog" },
+      { "name": "ISO 9001 Kalite Yönetim Sertifikası", "type": "certificate" },
+      { "name": "CE Uygunluk Beyanı", "type": "certificate" },
+      { "name": "Solar Keymark Test Raporu", "type": "certificate" },
+      { "name": "Bayi Kurulum ve Bakım Kılavuzu", "type": "manual" }
+    ]
+  },
+  "products": {
+    "hero": {
+      "eyebrow": "Ürün Kataloğu",
+      "title": "Kolektörler, boylerler, paketler ve akıllı sistemler",
+      "subtitle": "İhtiyacınıza uygun kapasiteyi seçin, teknik föyü ve çizimleri inceleyin, ekibimizden teklif isteyin."
+    },
+    "filters": {
+      "all": "Tümü",
+      "collector": "Kolektörler",
+      "boiler": "Boylerler",
+      "package": "Paket Sistemler",
+      "smart": "Akıllı Sistemler"
+    },
+    "requestQuote": "Bu ürün için teklif iste",
+    "viewDetails": "Detayları incele",
+    "downloadSheet": "Teknik föy indir (PDF)",
+    "specsTitle": "Teknik özellikler",
+    "backToProducts": "Tüm ürünlere dön",
+    "relatedTitle": "Diğer ürünler",
+    "tabs": {
+      "overview": "Genel Bakış",
+      "specs": "Teknik Özellikler",
+      "drawings": "Çizimler",
+      "cad": "CAD / BIM",
+      "documents": "Dökümanlar"
+    },
+    "drawingsTitle": "Teknik ölçü çizimleri",
+    "drawingsBody": "Montaj ve statik hesap için 2D ölçülendirilmiş çizimler.",
+    "cadTitle": "CAD / BIM dosyaları",
+    "cadBody": "Proje çizimlerinize doğrudan aktarabileceğiniz 3B model ve CAD formatları.",
+    "documentsTitle": "İlgili dökümanlar",
+    "downloadAll": "Seçilenleri indir",
+    "items": {
+      "orion-300": {
+        "name": "Orion 300 Serisi Güneş Kolektörü",
+        "tagline": "Kompakt, yüksek verimli selektif kaplamalı düz panel",
+        "description": "Orion 300, 4 mm temperli düşük demirli cam ve selektif titanyum nitrür kaplamalı absorban ile yüksek güneş enerjisi verimi sağlar. Eloksallı alüminyum çerçevesi, kıyı bölgelerinin nemli ve tuzlu havasına karşı uzun ömürlü dayanım sunar.",
+        "features": [
+          "Selektif kaplama ile %95 üzeri ışın yutma oranı",
+          "40 mm taş yünü yalıtım ile düşük ısı kaybı",
+          "Rüzgar ve dolu yüküne karşı güçlendirilmiş çerçeve",
+          "Konut ve ticari çatılara kolay montaj"
+        ]
+      },
+      "orion-500": {
+        "name": "Orion 500 Serisi Güneş Kolektörü",
+        "tagline": "Büyük yüzey alanlı, merkezi sistemler için yüksek kapasiteli panel",
+        "description": "Orion 500, geniş absorban alanı ile merkezi sistemler ve büyük ölçekli projeler için tasarlanmıştır. Aynı selektif kaplama teknolojisini daha büyük bir yüzeyde sunarak panel başına daha yüksek enerji üretimi sağlar.",
+        "features": [
+          "Geniş absorban alanı ile panel başına yüksek verim",
+          "45 mm taş yünü yalıtım ile minimum ısı kaybı",
+          "Merkezi sistem projelerine uygun modüler bağlantı",
+          "Askeri tesis ve otel projelerinde kanıtlanmış dayanıklılık"
+        ]
+      },
+      "aquarious-500": {
+        "name": "Aquarious 500 Serisi Emayeli Boyler",
+        "tagline": "Merkezi sistemler için çift serpantinli 500 litre boyler",
+        "description": "Aquarious 500, DIN 4753 standardına uygun cam emaye kaplı iç yüzeyi ile korozyona karşı uzun ömürlü koruma sağlar. Çift serpantin tasarımı güneş enerjisi ve destek ısıtma kaynağının birlikte kullanılmasına imkân tanır.",
+        "features": [
+          "Cam emaye iç kaplama, korozyona karşı üstün direnç",
+          "Çift serpantin: güneş + destek ısıtma kaynağı",
+          "Magnezyum anot ile ek katodik koruma",
+          "60 mm PU köpük yalıtım, düşük bekleme kaybı"
+        ]
+      },
+      "aquarious-600": {
+        "name": "Aquarious 600 Serisi Emayeli Boyler",
+        "tagline": "Yüksek kapasiteli tesisler için 600 litre boyler",
+        "description": "Aquarious 600, yüksek sıcak su tüketimi olan askeri tesisler, oteller ve toplu konut projeleri için geliştirilmiş yüksek kapasiteli çift serpantinli boylerdir.",
+        "features": [
+          "600 litre kapasite ile yüksek tüketime uygun",
+          "Çift serpantin, esnek ısı kaynağı kombinasyonu",
+          "60 mm PU köpük yalıtım ile minimum ısı kaybı",
+          "Güçlendirilmiş gövde, kurumsal ve ticari kullanıma uygun"
+        ]
+      },
+      "helios-200l": {
+        "name": "Helios 200L Paket Sistem",
+        "tagline": "4-5 kişilik hane için basınçlı paket çözüm",
+        "description": "200 litre emaye boyler ve iki adet Orion 300 düz yüzey kolektörden oluşan bu paket, basınçlı zorlamalı sirkülasyon ile çalışır ve montaj kiti dahil anahtar teslim olarak sunulur.",
+        "features": [
+          "Boyler ve kolektör aynı pakette, uyumluluk garantili",
+          "Montaj kiti ve bağlantı elemanları dahil",
+          "Basınçlı sistem, yüksek binalarda da sorunsuz çalışır",
+          "10 yıl boyler, 5 yıl kolektör garantisi"
+        ]
+      },
+      "helios-300l": {
+        "name": "Helios 300L Paket Sistem",
+        "tagline": "Kalabalık hane ve küçük tesisler için genişletilmiş paket",
+        "description": "300 litre emaye boyler ve üç adet Orion 300 düz yüzey kolektörden oluşan bu paket, yüksek sıcak su ihtiyacı olan haneler ve küçük ticari tesisler için tasarlanmıştır.",
+        "features": [
+          "Genişletilmiş kolektör alanı ile yüksek üretim",
+          "Montaj kiti ve bağlantı elemanları dahil",
+          "Basınçlı sistem, esnek kurulum imkânı",
+          "10 yıl boyler, 5 yıl kolektör garantisi"
+        ]
+      },
+      "simsek-track": {
+        "name": "ŞimşekTrack Uzaktan İzleme",
+        "tagline": "Sistem performansını gerçek zamanlı izleyen akıllı platform",
+        "description": "ŞimşekTrack; sıcaklık, debi ve verim verilerini gerçek zamanlı izleyen web ve mobil paneldir. Anomali durumunda saha ekibine otomatik uyarı gönderir, aylık üretim ve tasarruf raporlarını hazır formatta sunar.",
+        "features": [
+          "Gerçek zamanlı sıcaklık, debi ve verim izleme",
+          "Anomalide saha ekibine otomatik uyarı",
+          "Aylık üretim, tasarruf ve CO₂ raporları",
+          "BMS/SCADA sistemlerine doğrudan entegrasyon"
+        ]
+      },
+      "akilli-kontrolor": {
+        "name": "Şimşek Akıllı Kontrolör",
+        "tagline": "Destek ısıtmayı hava tahminiyle yöneten kontrol ünitesi",
+        "description": "Şimşek Akıllı Kontrolör, hava durumu tahminine ve gerçek zamanlı sıcaklık verisine göre destek ısıtma kaynağını otomatik devreye alır veya kapatır; enerji tüketimini veriye dayalı azaltır.",
+        "features": [
+          "Hava tahmini destekli akıllı devreye alma",
+          "Gerçek zamanlı sıcaklık ve sensör takibi",
+          "Kombi/kazan destek ısıtma entegrasyonu",
+          "ŞimşekTrack platformu ile tam uyumlu"
+        ]
+      }
+    },
+    "specsLabels": {
+      "absorberArea": "Absorban alanı",
+      "coating": "Kaplama",
+      "glazing": "Cam",
+      "frame": "Çerçeve",
+      "insulation": "Yalıtım",
+      "maxPressure": "Maks. işletme basıncı",
+      "stagnationTemp": "Durgunluk sıcaklığı",
+      "efficiency": "Verim (η₀)",
+      "weight": "Ağırlık",
+      "dimensions": "Ölçüler",
+      "capacity": "Kapasite",
+      "tankMaterial": "Tank malzemesi",
+      "coil": "Serpantin",
+      "anode": "Anot",
+      "standbyLoss": "Bekleme kaybı",
+      "boilerCapacity": "Boyler kapasitesi",
+      "collectorArea": "Kolektör alanı",
+      "householdSize": "Önerilen hane büyüklüğü",
+      "mountingKit": "Montaj kiti",
+      "circulation": "Sirkülasyon tipi",
+      "warranty": "Garanti",
+      "connectivity": "Bağlantı",
+      "sensors": "Sensörler",
+      "power": "Besleme",
+      "protocol": "Protokol",
+      "display": "Ekran",
+      "mounting": "Montaj"
+    },
+    "categoryLabels": {
+      "collector": "Kolektör",
+      "boiler": "Boyler",
+      "package": "Paket Sistem",
+      "smart": "Akıllı Sistem"
+    }
+  },
+  "projects": {
+    "hero": {
+      "eyebrow": "Referanslar",
+      "title": "Sahadaki işlerimiz",
+      "subtitle": "Askeri tesislerden otel projelerine, Türkiye ve ihracat pazarlarında tamamladığımız işlerden örnekler."
+    },
+    "items": {
+      "incirlik-sosyal-yasam-merkezi": {
+        "title": "İncirlik 10. Tanker Üs Komutanlığı Sosyal Yaşam Merkezi",
+        "description": "Askeri tesis bünyesindeki sosyal yaşam merkezi için merkezi güneş enerjisi destekli sıcak su sistemi kuruldu; yüksek kullanım yoğunluğuna uygun Aquarious serisi boylerler tercih edildi."
+      },
+      "alasehir-egitim-tabur-komutanligi": {
+        "title": "Alaşehir 1. Ulaştırma Eğitim Tabur Komutanlığı",
+        "description": "Eğitim tesisinin merkezi sıcak su ihtiyacı için Orion serisi kolektör ve çift serpantinli boyler kombinasyonu ile merkezi sistem uygulaması gerçekleştirildi."
+      },
+      "kara-harp-okulu": {
+        "title": "Kara Harp Okulu",
+        "description": "Yüksek kapasiteli merkezi sistem ile kurumsal tesisin sıcak su ihtiyacı düşük işletme maliyetiyle karşılanıyor."
+      },
+      "sweet-maril-resort": {
+        "title": "Sweet Maril Resort Hotel",
+        "description": "Otel bünyesinde konuk memnuniyetini artıran kesintisiz sıcak su temini; çatı ve teras alanına özel estetik montaj çözümü uygulandı."
+      },
+      "misir-fuar-2022": {
+        "title": "Mısır İhracat ve Fuar Katılımı",
+        "description": "Mısır'daki sektör fuarında yer alarak bölge pazarına giriş yaptık; fuar sonrası bölgesel distribütörlük görüşmeleri devam ediyor."
+      }
+    }
+  },
+  "dealers": {
+    "hero": {
+      "eyebrow": "Bayilik Başvurusu",
+      "title": "Şimşek bayi ağına katılın",
+      "subtitle": "Bölgenizde büyüyen güneş enerjisi pazarından pay almak isteyen tesisatçı, mühendislik firması ve toptancılarla çalışıyoruz."
+    },
+    "benefits": {
+      "title": "Bayilerimize sunduklarımız",
+      "items": [
+        { "title": "Bölgesel münhasırlık", "desc": "Belirlenen bölgelerde sınırlı sayıda bayi ile çalışarak karlılığınızı koruruz." },
+        { "title": "Teknik eğitim ve saha desteği", "desc": "Kurulum öncesi ve sonrası teknik ekibimizden eğitim ve destek alırsınız." },
+        { "title": "Pazarlama materyali desteği", "desc": "Katalog, teknik föy ve saha sunumları için hazır materyal sağlarız." }
+      ]
+    },
+    "form": {
+      "title": "Bayilik başvuru formu",
+      "name": "Ad Soyad",
+      "company": "Firma Adı",
+      "city": "Şehir",
+      "country": "Ülke",
+      "phone": "Telefon",
+      "email": "E-posta",
+      "volume": "Tahmini yıllık satış hacmi",
+      "message": "Firmanız ve hedef bölgeniz hakkında kısa bilgi",
+      "submit": "Başvuruyu Gönder",
+      "success": "Başvurunuz alındı. Bayilik ekibimiz en kısa sürede sizinle iletişime geçecek."
+    }
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "İletişim",
+      "title": "Projeniz için konuşalım",
+      "subtitle": "Teklif, teknik destek veya bayilik dışındaki tüm sorularınız için bize ulaşın."
+    },
+    "info": {
+      "addressTitle": "Fabrika ve Merkez Ofis",
+      "address": "Tarsus Organize Sanayi Bölgesi, Mersin, Türkiye",
+      "mapsUrl": "https://share.google/swwpukR48gXOD0hEs",
+      "directions": "Haritada aç",
+      "phoneTitle": "Telefon",
+      "phone": "+90 324 324 12 35",
+      "emailTitle": "E-posta",
+      "email": "info@simseksolar.com.tr",
+      "hoursTitle": "Çalışma Saatleri",
+      "hours": "Pazartesi – Cuma, 08:00 – 18:00"
+    },
+    "form": {
+      "title": "Mesaj gönderin",
+      "name": "Ad Soyad",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "subject": "Konu",
+      "message": "Mesajınız",
+      "submit": "Gönder",
+      "success": "Mesajınız için teşekkürler, ekibimiz en kısa sürede dönüş yapacak."
+    },
+    "whatsapp": "WhatsApp'tan yazın"
+  },
+  "footer": {
+    "tagline": "Mersin'de üretilen, dünyada güvenilen enerji ve alüminyum sistemleri. Bir Şimşek Grup kuruluşudur.",
+    "linksTitle": "Kurumsal",
+    "productsTitle": "Ürünler",
+    "contactTitle": "İletişim",
+    "aboutLink": "Hakkımızda",
+    "dealersLink": "Bayilik",
+    "rights": "Tüm hakları saklıdır."
+  },
+  "chat": {
+    "launcherLabel": "Şimşek.ai",
+    "title": "Şimşek.ai",
+    "subtitle": "Döküman ve kılavuzlarımızdan beslenen akıllı asistan",
+    "placeholder": "Sorunuzu yazın...",
+    "send": "Gönder",
+    "greeting": "Merhaba, ben Şimşek.ai! Ürün kılavuzlarımız ve teknik dökümanlarımızdan beslenerek yanıt veririm. Orion, Aquarious, Helios veya akıllı sistemlerle ilgili sorunuzu yazın.",
+    "quickSuggestions": {
+      "dealer": "Bayi olmak istiyorum",
+      "products": "Ürünleri keşfet",
+      "quote": "Proje teklifi al"
+    },
+    "errorFallback": "Şu anda bağlantı kurulamadı. Lütfen daha sonra tekrar deneyin veya bizi +90 324 324 12 35 numarasından arayın.",
+    "poweredBy": "Şimşek.ai — bilgi bankasından beslenen asistan"
+  }
+}

@@ -1,0 +1,509 @@
+{
+  "meta": {
+    "title": "Şimşek Solar — Solar Thermal Systems | A Şimşek Group Company",
+    "description": "35 years from Mersin to the world: Orion collectors, Aquarious enameled boilers, Helios package systems and smart monitoring. Engineering under one roof, from production to field installation."
+  },
+  "nav": {
+    "brand": "Şimşek Solar",
+    "group": "Group",
+    "products": "Products",
+    "projects": "Projects",
+    "resources": "Resources",
+    "contact": "Contact",
+    "getQuote": "Get a Quote"
+  },
+  "hero": {
+    "eyebrow": "Since 1990 — 35th year",
+    "titleLine1": "We take energy from nature,",
+    "titleLine2": "and carry it to the future.",
+    "subtitle": "Şimşek Solar manufactures Orion collectors, Aquarious enameled boilers and Helios package systems at its Mersin plants. From production to project engineering, field installation to smart monitoring — the whole process under one roof.",
+    "ctaPrimary": "Explore Products",
+    "ctaSecondary": "Request a Quote",
+    "stats": [
+      { "value": 35, "suffix": "", "label": "Years of manufacturing" },
+      { "value": 40000, "suffix": "+", "label": "Units in the field" },
+      { "value": 18, "suffix": "+", "label": "Export markets" }
+    ]
+  },
+  "group": {
+    "eyebrow": "Group of Companies",
+    "parentLabel": "Parent company",
+    "title": "One vision, four forces",
+    "body": "Şimşek Solar is part of Şimşek Group. Four companies completing each other under one holding: every link of the chain — from production to installation, energy to materials — in our own hands.",
+    "companies": [
+      {
+        "id": "solar",
+        "name": "Şimşek Solar",
+        "tag": "Solar Thermal Systems",
+        "desc": "Manufacturer of Orion collectors, Aquarious enameled boilers and Helios package systems. The source of hot water from homes to military facilities."
+      },
+      {
+        "id": "lipus",
+        "name": "Lipus",
+        "tag": "Energy Storage & Power Systems",
+        "desc": "New-generation energy storage and power electronics; uninterrupted power for your systems."
+      },
+      {
+        "id": "yenilenebilir",
+        "name": "Şimşek Renewables",
+        "tag": "Renewable Energy Systems",
+        "desc": "Solar plants and renewable energy investments; the energy transition from engineering to operation."
+      },
+      {
+        "id": "smk",
+        "name": "SMK Aluminum",
+        "tag": "Aluminum Profiles & Processing",
+        "desc": "The production muscle behind the group's and the industry's aluminum profiles; the source of every collector casing."
+      }
+    ]
+  },
+  "vision": {
+    "eyebrow": "Our Vision",
+    "lines": [
+      "We generate renewable energy.",
+      "We invest in the future.",
+      "We turn sunlight into tomorrow's energy."
+    ],
+    "footer": "The power we take from nature, we craft with quality, responsibility, and 35 years of engineering."
+  },
+  "anatomy": {
+    "eyebrow": "Technical Section",
+    "title": "Assembly of an Orion panel",
+    "body": "From the real SolidWorks solid model: as you scroll, the Orion collector is built layer by layer, ending in a full exploded view of every component.",
+    "hint": "Scroll to assemble",
+    "layers": [
+      { "no": "01", "name": "Aluminum casing", "spec": "SMK Aluminum anodized profile body" },
+      { "no": "02", "name": "Rock wool insulation", "spec": "45 mm — class A1, against heat loss" },
+      { "no": "03", "name": "Selective absorber", "spec": "Ti-N coating — α ≥ 95%, copper harp tubes" },
+      { "no": "04", "name": "Tempered glass", "spec": "4 mm, low-iron — 91% light transmittance" },
+      { "no": "05", "name": "Exploded view", "spec": "All layers — complete assembly kit" }
+    ],
+    "viewerLabel": "DIGITAL TWIN",
+    "titleBlock": {
+      "model": "ORION-500",
+      "scale": "SOLIDWORKS MODEL",
+      "dims": "2100 × 1200 × 95 mm",
+      "code": "ŞS-TR-1990",
+      "rev": "REV C",
+      "sheet": "SHEET 01"
+    }
+  },
+  "productsSection": {
+    "eyebrow": "Product Range",
+    "title": "Orion, Aquarious, Helios and Smart Systems",
+    "subtitle": "From collectors to boilers, package systems to remote monitoring — a solution for every installation.",
+    "viewAll": "View all products"
+  },
+  "wizard": {
+    "eyebrow": "System Finder",
+    "title": "Find the right system in a few steps",
+    "body": "Answer three questions and we'll recommend the right Şimşek system for your usage and demand.",
+    "steps": {
+      "segment": "Where will it be used?",
+      "size": "What is the scale?",
+      "smart": "Do you want remote monitoring?"
+    },
+    "segments": {
+      "home": { "title": "Residential", "desc": "Detached house or apartment" },
+      "commercial": { "title": "Hotel & Commercial", "desc": "Hotel, dormitory, sports facility" },
+      "industrial": { "title": "Industry & Public", "desc": "Factory, military facility, housing" }
+    },
+    "sizes": {
+      "home": [
+        { "id": "s", "title": "2-3 people", "desc": "Small household" },
+        { "id": "m", "title": "4-5 people", "desc": "Standard household" },
+        { "id": "l", "title": "6-8 people", "desc": "Large household" }
+      ],
+      "commercial": [
+        { "id": "s", "title": "≤ 30 rooms / people", "desc": "Boutique scale" },
+        { "id": "m", "title": "30-80 rooms / people", "desc": "Mid scale" },
+        { "id": "l", "title": "80+ rooms / people", "desc": "Large scale" }
+      ],
+      "industrial": [
+        { "id": "s", "title": "Process preheating", "desc": "Industrial water" },
+        { "id": "m", "title": "Central hot water", "desc": "Whole facility" },
+        { "id": "l", "title": "Housing development", "desc": "Multiple blocks" }
+      ]
+    },
+    "smartOptions": {
+      "yes": { "title": "Yes", "desc": "Remote monitoring with ŞimşekTrack" },
+      "no": { "title": "Not for now", "desc": "Can be added later" }
+    },
+    "back": "Back",
+    "restart": "Start over",
+    "resultEyebrow": "Recommended system",
+    "resultCta": "Request a quote for this system",
+    "resultDetail": "View product",
+    "addonLabel": "Recommended add-on",
+    "results": {
+      "helios-200l": "The most balanced solution for a standard household: boiler + two collectors, turnkey package.",
+      "helios-300l": "Extended capacity for high demand: pressurized package with three collectors.",
+      "central": "At this scale we engineer an Orion 500 collector field + Aquarious central boiler combination; our team prepares a quote with the capacity calculation."
+    },
+    "centralTitle": "Central System (Engineered)",
+    "centralModel": "ORION-500 × N + AQUARIOUS"
+  },
+  "whyUs": {
+    "eyebrow": "Why Şimşek",
+    "title": "Engineering proven in the field",
+    "items": [
+      { "title": "Our own production plants", "desc": "From enamel coating to aluminum profiles, the whole process runs inside our group companies with no outsourcing." },
+      { "title": "Certified quality", "desc": "Our products pass CE, TSE and Solar Keymark testing, with every serial number traceable back to its production batch." },
+      { "title": "Project and field support", "desc": "Our engineering team works alongside you from project design through field installation and commissioning." },
+      { "title": "Smart systems", "desc": "With Şimşek.ai and our smart controllers, we monitor system performance remotely and optimize efficiency with data." }
+    ]
+  },
+  "process": {
+    "eyebrow": "Process",
+    "title": "From your first request to commissioning",
+    "steps": [
+      { "title": "Needs assessment", "desc": "We size the right capacity together, based on your household or facility's hot water demand." },
+      { "title": "Project and engineering", "desc": "We prepare a detailed quote with a system layout, structural calculations, and technical drawings tailored to your site." },
+      { "title": "Production and dispatch", "desc": "Your order is manufactured at our Mersin plants and shipped with secure packaging." },
+      { "title": "Field installation and monitoring", "desc": "Our own field team completes installation, and can connect the system to remote monitoring on request." }
+    ]
+  },
+  "certs": {
+    "eyebrow": "Quality Assurance",
+    "title": "Tested to international standards",
+    "subtitle": "Every product family is independently tested against the relevant European and Turkish standards.",
+    "items": ["CE Compliance", "TSE Certificate", "Solar Keymark", "ISO 9001"]
+  },
+  "projectsTeaser": {
+    "eyebrow": "Projects",
+    "title": "From public institutions to hotels and export",
+    "subtitle": "A selection of projects completed for military facilities, hotels, and export markets.",
+    "cta": "View all projects"
+  },
+  "ctaBand": {
+    "title": "Let's find the right system for your project",
+    "subtitle": "From capacity calculations to dealer applications, we'll send a tailored quote within 24 hours.",
+    "cta": "Request a Quote Now"
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "About Us",
+      "title": "From Mersin to the Mediterranean, and beyond",
+      "subtitle": "Şimşek Group is an independent Turkish group active for 35 years in solar thermal systems, renewables, energy storage, and aluminum production."
+    },
+    "story": {
+      "title": "Our Story",
+      "body1": "Founded to make use of Mersin's solar potential, Şimşek has grown into a four-company group with an annual capacity of thousands of units. Our purpose hasn't changed since day one: build systems that are durable, efficient, and cheap to maintain.",
+      "body2": "Today our products serve military facilities, hotels, and housing developments, alongside a growing export presence. Our R&D team keeps refining every component, from absorber coating efficiency to the enamel formulation to our smart monitoring software."
+    },
+    "stats": [
+      { "value": "1990", "label": "Founded" },
+      { "value": "4", "label": "Group companies" },
+      { "value": "40,000+", "label": "Units in the field" },
+      { "value": "18+", "label": "Export markets" }
+    ],
+    "values": {
+      "title": "What defines us",
+      "items": [
+        { "title": "Durability comes first", "desc": "We design every product from the user's perspective, not the manufacturer's — built to last for decades." },
+        { "title": "Transparent engineering", "desc": "Our technical sheets carry real tested values; we avoid inflated efficiency claims." },
+        { "title": "One roof, from production to technology", "desc": "We bring manufacturer, project engineer, field installer, and technology provider together under one roof." }
+      ]
+    },
+    "facility": {
+      "title": "Our production plants",
+      "body": "Our plants house an enamel kiln, a CNC tube-bending line, laser cutting, an aluminum profile line and automated welding stations. Every step, from raw material intake to final packaging, passes through quality control checkpoints."
+    }
+  },
+  "resources": {
+    "hero": {
+      "eyebrow": "Technical Resources",
+      "title": "Catalogs, drawings, and certificates in one place",
+      "subtitle": "For project engineers and dealers — technical files, CAD drawings, and certificates for every product family, in a single archive."
+    },
+    "filters": {
+      "all": "All",
+      "catalog": "Catalogs",
+      "manual": "Installation Manuals",
+      "certificate": "Certificates",
+      "drawing": "Technical Drawings",
+      "cad": "CAD / BIM",
+      "datasheet": "Data Sheets"
+    },
+    "downloadSelected": "Download selected",
+    "selectAll": "Select all",
+    "productDocsTitle": "Product-specific technical files",
+    "generalDocsTitle": "General documents and certificates",
+    "generalDocs": [
+      { "name": "Şimşek Group Corporate Profile", "type": "catalog" },
+      { "name": "ISO 9001 Quality Management Certificate", "type": "certificate" },
+      { "name": "CE Declaration of Conformity", "type": "certificate" },
+      { "name": "Solar Keymark Test Report", "type": "certificate" },
+      { "name": "Dealer Installation & Maintenance Guide", "type": "manual" }
+    ]
+  },
+  "products": {
+    "hero": {
+      "eyebrow": "Product Catalog",
+      "title": "Collectors, boilers, packages and smart systems",
+      "subtitle": "Choose the right capacity, review the technical sheet and drawings, and request a quote from our team."
+    },
+    "filters": {
+      "all": "All",
+      "collector": "Collectors",
+      "boiler": "Boilers",
+      "package": "Package Systems",
+      "smart": "Smart Systems"
+    },
+    "requestQuote": "Request a quote for this product",
+    "viewDetails": "View details",
+    "downloadSheet": "Download technical sheet (PDF)",
+    "specsTitle": "Technical specifications",
+    "backToProducts": "Back to all products",
+    "relatedTitle": "Other products",
+    "tabs": {
+      "overview": "Overview",
+      "specs": "Specifications",
+      "drawings": "Drawings",
+      "cad": "CAD / BIM",
+      "documents": "Documents"
+    },
+    "drawingsTitle": "Technical dimension drawings",
+    "drawingsBody": "2D dimensioned drawings for installation and structural calculations.",
+    "cadTitle": "CAD / BIM files",
+    "cadBody": "3D models and CAD formats you can import directly into your project drawings.",
+    "documentsTitle": "Related documents",
+    "downloadAll": "Download selected",
+    "items": {
+      "orion-300": {
+        "name": "Orion 300 Series Solar Collector",
+        "tagline": "Compact, high-efficiency selective-coated flat panel",
+        "description": "The Orion 300 uses 4mm tempered low-iron glass and a selective titanium-nitride coated absorber for high solar efficiency. Its anodized aluminum frame withstands the humid, salty air of coastal regions for the long run.",
+        "features": [
+          "Selective coating with over 95% absorption",
+          "40mm rock wool insulation for minimal heat loss",
+          "Reinforced frame rated for wind and hail loads",
+          "Easy installation on residential and commercial roofs"
+        ]
+      },
+      "orion-500": {
+        "name": "Orion 500 Series Solar Collector",
+        "tagline": "Large surface area for central systems and high-capacity projects",
+        "description": "The Orion 500 is built for central systems and large-scale projects with a wider absorber area. It delivers the same selective coating technology across a bigger surface, for higher energy output per panel.",
+        "features": [
+          "Larger absorber area for higher output per panel",
+          "45mm rock wool insulation for minimal heat loss",
+          "Modular connection suited to central system projects",
+          "Proven durability on military and hotel installations"
+        ]
+      },
+      "aquarious-500": {
+        "name": "Aquarious 500 Series Enameled Boiler",
+        "tagline": "Dual-coil 500-liter boiler for central systems",
+        "description": "The Aquarious 500 features a DIN 4753-compliant vitrified enamel interior that resists corrosion for the long term. Its dual-coil design lets solar energy and a backup heat source work together.",
+        "features": [
+          "Vitrified enamel interior with superior corrosion resistance",
+          "Dual coil: solar plus backup heat source",
+          "Magnesium anode for additional cathodic protection",
+          "60mm PU foam insulation for low standby loss"
+        ]
+      },
+      "aquarious-600": {
+        "name": "Aquarious 600 Series Enameled Boiler",
+        "tagline": "600-liter boiler for high-capacity facilities",
+        "description": "The Aquarious 600 is a high-capacity dual-coil boiler built for military facilities, hotels, and housing developments with heavy hot water demand.",
+        "features": [
+          "600-liter capacity for high consumption",
+          "Dual coil with flexible heat-source combinations",
+          "60mm PU foam insulation for minimal heat loss",
+          "Reinforced shell suitable for institutional and commercial use"
+        ]
+      },
+      "helios-200l": {
+        "name": "Helios 200L Package System",
+        "tagline": "Pressurized turnkey package for a 4-5 person household",
+        "description": "This package combines a 200-liter enameled boiler with two Orion 300 flat-plate collectors, running on pressurized forced circulation, and is delivered turnkey with a mounting kit.",
+        "features": [
+          "Boiler and collectors bundled together, guaranteed compatibility",
+          "Mounting kit and connection parts included",
+          "Pressurized system, works reliably in tall buildings",
+          "10-year boiler and 5-year collector warranty"
+        ]
+      },
+      "helios-300l": {
+        "name": "Helios 300L Package System",
+        "tagline": "Extended package for larger households and small facilities",
+        "description": "This package combines a 300-liter enameled boiler with three Orion 300 flat-plate collectors, designed for households and small commercial sites with heavier hot water demand.",
+        "features": [
+          "Extended collector area for higher output",
+          "Mounting kit and connection parts included",
+          "Pressurized system, flexible installation",
+          "10-year boiler and 5-year collector warranty"
+        ]
+      },
+      "simsek-track": {
+        "name": "ŞimşekTrack Remote Monitoring",
+        "tagline": "A smart platform tracking system performance in real time",
+        "description": "ŞimşekTrack is a web and mobile dashboard tracking temperature, flow, and efficiency in real time. It sends automatic alerts to the field team on anomalies and delivers monthly production and savings reports in a ready-to-use format.",
+        "features": [
+          "Real-time temperature, flow, and efficiency tracking",
+          "Automatic field-team alerts on anomalies",
+          "Monthly production, savings, and CO₂ reports",
+          "Direct integration with BMS/SCADA systems"
+        ]
+      },
+      "akilli-kontrolor": {
+        "name": "Şimşek Smart Controller",
+        "tagline": "A control unit managing backup heating with weather forecasts",
+        "description": "The Şimşek Smart Controller automatically switches the backup heat source on or off based on weather forecasts and real-time temperature data, cutting energy consumption with data-driven control.",
+        "features": [
+          "Forecast-assisted smart switching",
+          "Real-time temperature and sensor tracking",
+          "Boiler/combi backup heating integration",
+          "Fully compatible with the ŞimşekTrack platform"
+        ]
+      }
+    },
+    "specsLabels": {
+      "absorberArea": "Absorber area",
+      "coating": "Coating",
+      "glazing": "Glazing",
+      "frame": "Frame",
+      "insulation": "Insulation",
+      "maxPressure": "Max. operating pressure",
+      "stagnationTemp": "Stagnation temperature",
+      "efficiency": "Efficiency (η₀)",
+      "weight": "Weight",
+      "dimensions": "Dimensions",
+      "capacity": "Capacity",
+      "tankMaterial": "Tank material",
+      "coil": "Coil",
+      "anode": "Anode",
+      "standbyLoss": "Standby loss",
+      "boilerCapacity": "Boiler capacity",
+      "collectorArea": "Collector area",
+      "householdSize": "Recommended household size",
+      "mountingKit": "Mounting kit",
+      "circulation": "Circulation type",
+      "warranty": "Warranty",
+      "connectivity": "Connectivity",
+      "sensors": "Sensors",
+      "power": "Power supply",
+      "protocol": "Protocol",
+      "display": "Display",
+      "mounting": "Mounting"
+    },
+    "categoryLabels": {
+      "collector": "Collector",
+      "boiler": "Boiler",
+      "package": "Package System",
+      "smart": "Smart System"
+    }
+  },
+  "projects": {
+    "hero": {
+      "eyebrow": "Projects",
+      "title": "Work in the field",
+      "subtitle": "Examples of work completed for military facilities, hotels, and export markets."
+    },
+    "items": {
+      "incirlik-sosyal-yasam-merkezi": {
+        "title": "İncirlik 10th Tanker Base Command Social Life Center",
+        "description": "A centralized solar-assisted hot water system for the social life center of a military facility; Aquarious series boilers were chosen for the high usage intensity."
+      },
+      "alasehir-egitim-tabur-komutanligi": {
+        "title": "Alaşehir 1st Transportation Training Battalion Command",
+        "description": "A centralized system was installed for the training facility's central hot water needs, combining Orion series collectors with dual-coil boilers."
+      },
+      "kara-harp-okulu": {
+        "title": "Turkish Military Academy",
+        "description": "A high-capacity centralized system meets the institutional facility's hot water needs at a low operating cost."
+      },
+      "sweet-maril-resort": {
+        "title": "Sweet Maril Resort Hotel",
+        "description": "Uninterrupted hot water supply improving guest satisfaction at the hotel, with a discreet mounting solution custom-fit to the roof and terrace."
+      },
+      "misir-fuar-2022": {
+        "title": "Egypt Export & Trade Fair Participation",
+        "description": "We entered the regional market by exhibiting at a major industry fair in Egypt; regional distributorship discussions are ongoing since."
+      }
+    }
+  },
+  "dealers": {
+    "hero": {
+      "eyebrow": "Dealer Application",
+      "title": "Join the Şimşek dealer network",
+      "subtitle": "We partner with installers, engineering firms and wholesalers looking to capture a growing solar thermal market in their region."
+    },
+    "benefits": {
+      "title": "What our dealers get",
+      "items": [
+        { "title": "Regional exclusivity", "desc": "We work with a limited number of dealers per region to protect your margins." },
+        { "title": "Technical training and field support", "desc": "Get training and support from our technical team before and after installation." },
+        { "title": "Marketing material support", "desc": "We provide ready-made catalogs, technical sheets and field presentation materials." }
+      ]
+    },
+    "form": {
+      "title": "Dealer application form",
+      "name": "Full Name",
+      "company": "Company Name",
+      "city": "City",
+      "country": "Country",
+      "phone": "Phone",
+      "email": "Email",
+      "volume": "Estimated annual sales volume",
+      "message": "A brief note about your company and target region",
+      "submit": "Submit Application",
+      "success": "Your application has been received. Our dealer team will contact you shortly."
+    }
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Let's talk about your project",
+      "subtitle": "Reach out for quotes, technical support, or anything outside our dealer program."
+    },
+    "info": {
+      "addressTitle": "Factory & Head Office",
+      "address": "Tarsus Organized Industrial Zone, Mersin, Türkiye",
+      "mapsUrl": "https://share.google/swwpukR48gXOD0hEs",
+      "directions": "Open in Maps",
+      "phoneTitle": "Phone",
+      "phone": "+90 324 324 12 35",
+      "emailTitle": "Email",
+      "email": "info@simseksolar.com.tr",
+      "hoursTitle": "Business Hours",
+      "hours": "Monday – Friday, 08:00 – 18:00"
+    },
+    "form": {
+      "title": "Send a message",
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "subject": "Subject",
+      "message": "Your Message",
+      "submit": "Send",
+      "success": "Thanks for your message — our team will get back to you shortly."
+    },
+    "whatsapp": "Message us on WhatsApp"
+  },
+  "footer": {
+    "tagline": "Energy and aluminum systems made in Mersin, trusted worldwide. A Şimşek Group company.",
+    "linksTitle": "Company",
+    "productsTitle": "Products",
+    "contactTitle": "Contact",
+    "aboutLink": "About Us",
+    "dealersLink": "Become a Dealer",
+    "rights": "All rights reserved."
+  },
+  "chat": {
+    "launcherLabel": "Şimşek.ai",
+    "title": "Şimşek.ai",
+    "subtitle": "A smart assistant grounded in our documents and manuals",
+    "placeholder": "Type your question...",
+    "send": "Send",
+    "greeting": "Hi, I'm Şimşek.ai! I answer from our product manuals and technical documents. Ask me about Orion, Aquarious, Helios, or our smart systems.",
+    "quickSuggestions": {
+      "dealer": "Become a distributor",
+      "products": "Explore our products",
+      "quote": "Get a project quote"
+    },
+    "errorFallback": "We couldn't connect right now. Please try again later or call us at +90 324 324 12 35.",
+    "poweredBy": "Şimşek.ai — assistant grounded in our knowledge base"
+  }
+}

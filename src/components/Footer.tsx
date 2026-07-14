@@ -1,0 +1,84 @@
+import { useTranslations } from 'next-intl';
+import Image from 'next/image';
+import { Mail, Phone, MapPin } from 'lucide-react';
+import { Link } from '@/i18n/navigation';
+import { products } from '@/data/products';
+
+export function Footer() {
+  const t = useTranslations('footer');
+  const tNav = useTranslations('nav');
+  const tContact = useTranslations('contact');
+  const tProducts = useTranslations('products');
+  const year = new Date().getFullYear();
+
+  return (
+    <footer className="bg-graphite-gradient text-graphite-100">
+      <div className="container-page grid gap-12 py-16 sm:grid-cols-2 lg:grid-cols-4 lg:py-20">
+        <div>
+          <Image
+            src="/brand/simsek-solar-white.png"
+            alt={tNav('brand')}
+            width={600}
+            height={180}
+            className="h-12 w-auto object-contain object-left rtl:object-right"
+          />
+          <p className="mt-5 max-w-xs text-sm leading-relaxed text-graphite-200">{t('tagline')}</p>
+        </div>
+
+        <div>
+          <h3 className="font-display text-sm font-semibold uppercase tracking-wider text-volt-400">
+            {t('linksTitle')}
+          </h3>
+          <ul className="mt-4 space-y-2.5 text-sm text-graphite-200">
+            <li><Link href="/about" className="hover:text-white">{t('aboutLink')}</Link></li>
+            <li><Link href="/#grup" className="hover:text-white">{tNav('group')}</Link></li>
+            <li><Link href="/#referanslar" className="hover:text-white">{tNav('projects')}</Link></li>
+            <li><Link href="/resources" className="hover:text-white">{tNav('resources')}</Link></li>
+            <li><Link href="/dealers" className="hover:text-white">{t('dealersLink')}</Link></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="font-display text-sm font-semibold uppercase tracking-wider text-volt-400">
+            {t('productsTitle')}
+          </h3>
+          <ul className="mt-4 space-y-2.5 text-sm text-graphite-200">
+            {[products[0], products[2], products[4], products[6]].map((p) => (
+              <li key={p.slug}>
+                <Link href={`/products/${p.slug}`} className="hover:text-white">
+                  {tProducts(`items.${p.slug}.name`)}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="font-display text-sm font-semibold uppercase tracking-wider text-volt-400">
+            {t('contactTitle')}
+          </h3>
+          <ul className="mt-4 space-y-3 text-sm text-graphite-200">
+            <li className="flex items-start gap-2.5">
+              <MapPin size={16} className="mt-0.5 shrink-0 text-volt-400" />
+              <span>{tContact('info.address')}</span>
+            </li>
+            <li className="flex items-center gap-2.5">
+              <Phone size={16} className="shrink-0 text-volt-400" />
+              <span dir="ltr">{tContact('info.phone')}</span>
+            </li>
+            <li className="flex items-center gap-2.5">
+              <Mail size={16} className="shrink-0 text-volt-400" />
+              <span dir="ltr">{tContact('info.email')}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="border-t border-white/10">
+        <div className="container-page flex flex-col items-center justify-between gap-2 py-6 text-xs text-graphite-300 sm:flex-row">
+          <span>© {year} {tNav('brand')}. {t('rights')}</span>
+        </div>
+      </div>
+    </footer>
+  );
+}
