@@ -7,7 +7,6 @@ import { locales, isRtl, type Locale } from '@/i18n/config';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { WhatsAppButton } from '@/components/WhatsAppButton';
-import { ChatWidget } from '@/components/ChatWidget';
 import '../globals.css';
 
 const josefinSans = Josefin_Sans({
@@ -80,7 +79,6 @@ export default async function LocaleLayout({
           <main>{children}</main>
           <Footer />
           <WhatsAppButton />
-          <ChatWidget />
         </NextIntlClientProvider>
       </body>
     </html>

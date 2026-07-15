@@ -110,8 +110,8 @@
   },
   "projectsMap": {
     "eyebrow": "Proje Haritası",
-    "title": "71 ilde 449 proje, 30.000'i aşkın konut",
-    "subtitle": "Mersin'deki üretim üssümüzden Türkiye'nin dört bir yanına ve ihracat pazarlarına: tamamlanan projelerimizin ayak izi.",
+    "title": "81 ilde on binlerce proje, yüz binlerce konut ve tesis",
+    "subtitle": "Mersin'deki üretim üssümüzden Türkiye'nin 81 iline ve ihracat pazarlarına: 35 yılda tamamlanan işlerimizin ayak izi.",
     "legend": {
       "factory": "Üretim Tesisi",
       "project": "Proje İli",
@@ -328,7 +328,7 @@
   "projectsTeaser": {
     "eyebrow": "Referanslar",
     "title": "Kamu, konut ve otelden ihracata",
-    "subtitle": "Askeri tesislerden otel projelerine, Türkiye ve ihracat pazarlarında tamamladığımız işlerden bir seçki.",
+    "subtitle": "Askeri tesislerden otellere, toplu konutlardan ihracat pazarlarına: 81 ilde on binlerce projede tercih edilen mühendislik.",
     "cta": "Tüm referansları gör"
   },
   "ctaBand": {
@@ -643,7 +643,7 @@
     "whatsapp": "WhatsApp'tan yazın"
   },
   "footer": {
-    "tagline": "Mersin'de üretilen, dünyada güvenilen enerji ve alüminyum sistemleri. Bir Şimşek Grup kuruluşudur.",
+    "tagline": "35 yıllık mühendislik birikimiyle güneşin gücünü yaşam alanlarına taşıyoruz. Bir Şimşek Grup kuruluşudur.",
     "linksTitle": "Kurumsal",
     "productsTitle": "Ürünler",
     "contactTitle": "İletişim",

@@ -104,7 +104,7 @@ export function Hero() {
           className="mt-16 grid w-full max-w-2xl grid-cols-3 divide-x divide-white/12 border border-white/12 bg-white/[0.03] backdrop-blur-sm rtl:divide-x-reverse"
         >
           {stats.map((s) => (
-            <div key={s.label} className="px-4 py-3.5 text-start">
+            <div key={s.label} className="flex flex-col items-center justify-center px-4 py-3.5 text-center">
               <p className="font-tabular font-display text-2xl font-bold text-white sm:text-3xl">
                 <CountUp value={s.value} suffix={s.suffix} locale={NUMBER_LOCALE[locale] ?? 'tr-TR'} />
               </p>

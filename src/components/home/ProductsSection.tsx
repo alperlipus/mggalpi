@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 import { ArrowRight, ArrowUpRight, Sun, Droplets, Layers, Cpu } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 import { Reveal } from '@/components/Reveal';
@@ -10,11 +11,11 @@ interface CatalogFamily {
   groups: { items: { name: string }[] }[];
 }
 
-const familyIcon: Record<string, typeof Sun> = {
-  kolektorler: Sun,
-  boylerler: Droplets,
-  sehpalar: Layers,
-  otomasyon: Cpu,
+const familyVisual: Record<string, { icon: typeof Sun; image: string }> = {
+  kolektorler: { icon: Sun, image: '/products/orion-300.jpg' },
+  boylerler: { icon: Droplets, image: '/products/aquarious-540.jpg' },
+  sehpalar: { icon: Layers, image: '/products/sehpa-merkezi-3lu.jpg' },
+  otomasyon: { icon: Cpu, image: '/products/solar-vana.jpg' },
 };
 
 export function ProductsSection() {
@@ -49,25 +50,42 @@ export function ProductsSection() {
 
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {families.map((family, i) => {
-            const Icon = familyIcon[family.id] ?? Sun;
+            const visual = familyVisual[family.id] ?? familyVisual.kolektorler;
+            const Icon = visual.icon;
             const count = family.groups.reduce((sum, g) => sum + g.items.length, 0);
             return (
               <Reveal key={family.id} delay={i * 0.08}>
                 <Link
                   href={`/products#${family.id}`}
-                  className="group flex h-full flex-col rounded-2xl border border-mist-900/10 bg-mist-50 p-7 transition-all hover:-translate-y-1 hover:border-volt-500/40 hover:bg-white hover:shadow-card"
+                  className="group flex h-full flex-col overflow-hidden rounded-2xl border border-mist-900/10 bg-white transition-all hover:-translate-y-1.5 hover:border-volt-500/40 hover:shadow-card"
                 >
-                  <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-volt-100 text-volt-700">
-                    <Icon size={21} strokeWidth={1.75} />
-                  </span>
-                  <h3 className="mt-5 font-display text-lg font-bold text-graphite-950">{family.title}</h3>
-                  <p className="mt-1 font-mono text-[10px] font-semibold uppercase tracking-[0.16em] text-mist-500">
-                    {count} {tCatalog('seriesLabel')}
-                  </p>
-                  <p className="mt-3 text-sm leading-relaxed text-mist-700">{family.desc}</p>
-                  <div className="mt-auto flex items-center gap-1.5 pt-5 text-sm font-semibold text-graphite-950 transition-colors group-hover:text-volt-600">
-                    {t('viewAll')}
-                    <ArrowUpRight size={15} className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 rtl:group-hover:-translate-x-0.5" />
+                  {/* Ürün görseli */}
+                  <div className="relative aspect-[4/3] overflow-hidden bg-mist-50">
+                    <Image
+                      src={visual.image}
+                      alt={family.title}
+                      fill
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                    <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-graphite-950/45 via-transparent to-transparent" aria-hidden />
+                    <span className="absolute bottom-3 start-3 flex h-10 w-10 items-center justify-center rounded-xl bg-white/95 text-volt-700 shadow-sm backdrop-blur-sm">
+                      <Icon size={19} strokeWidth={1.75} />
+                    </span>
+                    <span className="absolute bottom-3 end-3 rounded-full bg-graphite-950/70 px-2.5 py-1 font-mono text-[10px] font-semibold uppercase tracking-[0.12em] text-white backdrop-blur-sm">
+                      {count} {tCatalog('seriesLabel')}
+                    </span>
+                  </div>
+
+                  <div className="flex flex-1 flex-col p-6">
+                    <h3 className="font-display text-lg font-bold text-graphite-950 transition-colors group-hover:text-volt-700">
+                      {family.title}
+                    </h3>
+                    <p className="mt-2.5 text-sm leading-relaxed text-mist-700">{family.desc}</p>
+                    <div className="mt-auto flex items-center gap-1.5 pt-5 text-sm font-semibold text-graphite-950 transition-colors group-hover:text-volt-600">
+                      {t('viewAll')}
+                      <ArrowUpRight size={15} className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 rtl:group-hover:-translate-x-0.5" />
+                    </div>
                   </div>
                 </Link>
               </Reveal>

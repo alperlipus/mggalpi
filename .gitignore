@@ -37,3 +37,4 @@ next-env.d.ts
 
 # yerel dokuman arsivi (buyuk dosyalar)
 D*K*MANLAR/
+.claude/settings.local.json

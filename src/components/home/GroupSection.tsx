@@ -42,34 +42,60 @@ export function GroupSection() {
           </div>
         </Reveal>
 
-        {/* Parent company */}
+        {/* Parent company — wide horizontal band */}
         <Reveal delay={0.05}>
-          <div className="mt-12 flex flex-col items-center">
-            <span className="font-mono text-[10px] font-semibold uppercase tracking-[0.2em] text-mist-500">
-              {t('parentLabel')}
-            </span>
-            <div className="mt-3 rounded-2xl border border-graphite-700/10 bg-mist-50 px-12 py-6 shadow-card">
-              <Image
-                src="/brand/simsek-grup.png"
-                alt="Şimşek Grup"
-                width={1000}
-                height={1000}
-                className="h-32 w-auto object-contain sm:h-40"
-              />
+          <div className="mx-auto mt-12 max-w-5xl">
+            <div className="relative overflow-hidden rounded-3xl border border-graphite-700/10 bg-graphite-gradient px-8 py-8 shadow-card sm:px-12 sm:py-10">
+              <div className="pointer-events-none absolute -end-20 -top-20 h-64 w-64 rounded-full bg-volt-500/15 blur-3xl" aria-hidden />
+              <div className="relative flex flex-col items-center gap-6 sm:flex-row sm:gap-10">
+                <div className="flex shrink-0 items-center justify-center rounded-2xl bg-white px-8 py-5">
+                  <Image
+                    src="/brand/simsek-grup.png"
+                    alt="Şimşek Grup"
+                    width={1000}
+                    height={1000}
+                    className="h-24 w-auto object-contain sm:h-28"
+                  />
+                </div>
+                <div className="hidden h-24 w-px bg-white/15 sm:block" aria-hidden />
+                <div className="text-center sm:text-start">
+                  <span className="font-mono text-[10px] font-semibold uppercase tracking-[0.2em] text-volt-400">
+                    {t('parentLabel')}
+                  </span>
+                  <h3 className="mt-2 font-display text-2xl font-bold text-white sm:text-3xl">Şimşek Grup</h3>
+                  <p className="mt-3 max-w-md text-sm leading-relaxed text-graphite-200">
+                    Güneş enerjisinden akıllı ev teknolojilerine, yenilenebilir enerjiden alüminyum üretimine;
+                    birbirini tamamlayan dört şirketi tek vizyon altında toplayan ana yapı.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </Reveal>
 
-        {/* Holding → subsidiaries connector */}
+        {/* Holding → subsidiaries: soft fan-out beams instead of a rigid tree */}
         <Reveal delay={0.1}>
           <div className="hidden justify-center lg:flex" aria-hidden>
-            <svg viewBox="0 0 1000 70" className="h-16 w-full max-w-5xl text-graphite-700/25">
-              <line x1="500" y1="0" x2="500" y2="28" stroke="currentColor" strokeWidth="1.5" />
-              <line x1="125" y1="28" x2="875" y2="28" stroke="currentColor" strokeWidth="1.5" />
+            <svg viewBox="0 0 1000 90" className="h-20 w-full max-w-5xl" fill="none">
+              <defs>
+                <linearGradient id="grp-beam" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stopColor="#f6bc32" stopOpacity="0.9" />
+                  <stop offset="100%" stopColor="#f6bc32" stopOpacity="0.15" />
+                </linearGradient>
+              </defs>
               {[125, 375, 625, 875].map((x) => (
-                <line key={x} x1={x} y1="28" x2={x} y2="70" stroke="currentColor" strokeWidth="1.5" />
+                <path
+                  key={x}
+                  d={`M 500 6 C 500 50, ${x} 38, ${x} 86`}
+                  stroke="url(#grp-beam)"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                />
               ))}
-              <circle cx="500" cy="0" r="3.5" fill="#f6bc32" />
+              <circle cx="500" cy="6" r="4" fill="#f6bc32" />
+              {[125, 375, 625, 875].map((x) => (
+                <circle key={x} cx={x} cy="86" r="3" fill="#f6bc32" opacity="0.7" />
+              ))}
             </svg>
           </div>
         </Reveal>

@@ -15,6 +15,10 @@ import {
   Package,
   Cpu,
   Sun,
+  Calculator,
+  Droplets,
+  Thermometer,
+  LayoutGrid,
 } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 
@@ -29,14 +33,58 @@ interface Option {
 
 const segmentIcons = { home: Home, commercial: Hotel, industrial: Factory } as const;
 
-/* Recommendation matrix: household small/medium → Helios 200L, large → 300L,
-   everything commercial/industrial → engineered central system. */
-function recommend(segment: Segment, size: Size): { slug: string | null; key: string } {
+interface SpecChip {
+  icon: typeof Droplets;
+  label: string;
+  value: string;
+}
+
+interface Recommendation {
+  slug: string | null;
+  key: string;
+  specs: SpecChip[];
+}
+
+/* Öneri matrisi, hesap raporu mantığıyla hizalı: kişi başı ~50 L/gün sıcak su
+   kabulüyle hane küçük/orta → Helios 200L, kalabalık → 300L; ticari ve
+   endüstriyel ölçekler → projeli merkezi sistem. */
+function recommend(segment: Segment, size: Size): Recommendation {
   if (segment === 'home') {
-    if (size === 'l') return { slug: 'helios-300l', key: 'helios-300l' };
-    return { slug: 'helios-200l', key: 'helios-200l' };
+    if (size === 'l') {
+      return {
+        slug: 'helios-300l',
+        key: 'helios-300l',
+        specs: [
+          { icon: Droplets, label: 'Boyler kapasitesi', value: '300 Litre' },
+          { icon: LayoutGrid, label: 'Kolektör', value: '3 × Orion 300' },
+          { icon: Thermometer, label: 'Günlük sıcak su', value: '~300–400 L' },
+        ],
+      };
+    }
+    return {
+      slug: 'helios-200l',
+      key: 'helios-200l',
+      specs: [
+        { icon: Droplets, label: 'Boyler kapasitesi', value: '200 Litre' },
+        { icon: LayoutGrid, label: 'Kolektör', value: '2 × Orion 300' },
+        { icon: Thermometer, label: 'Günlük sıcak su', value: '~200–250 L' },
+      ],
+    };
   }
-  return { slug: null, key: 'central' };
+  const scaleSpec: Record<Size, string> = {
+    s: 'Butik ölçek — kolektör tarlası + merkezi boyler',
+    m: 'Orta ölçek — çoklu kolektör grubu + merkezi boyler',
+    l: 'Büyük ölçek — çok gruplu tarla + boyler bataryası',
+  };
+  return {
+    slug: null,
+    key: 'central',
+    specs: [
+      { icon: LayoutGrid, label: 'Sistem tipi', value: 'Orion × N + Aquarious' },
+      { icon: Droplets, label: 'Kapasite', value: 'Projeye özel hesap' },
+      { icon: Thermometer, label: 'Ölçek', value: scaleSpec[size] },
+    ],
+  };
 }
 
 export function SystemWizard() {
@@ -161,6 +209,25 @@ export function SystemWizard() {
                   <p className="text-center font-mono text-[11px] font-semibold uppercase tracking-[0.2em] text-volt-700">
                     {t('resultEyebrow')}
                   </p>
+
+                  {/* Seçim özeti */}
+                  <div className="mt-4 flex flex-wrap items-center justify-center gap-2">
+                    {[
+                      segments[segment!].title,
+                      sizes.find((s) => s.id === size)?.title,
+                      smart ? smartOptions.yes.desc : smartOptions.no.title,
+                    ]
+                      .filter(Boolean)
+                      .map((label) => (
+                        <span
+                          key={label as string}
+                          className="rounded-full border border-graphite-700/15 bg-mist-50 px-3 py-1 text-xs font-semibold text-mist-700"
+                        >
+                          {label}
+                        </span>
+                      ))}
+                  </div>
+
                   <div className="mt-5 rounded-2xl bg-graphite-gradient p-7 text-white sm:p-9">
                     <div className="flex flex-wrap items-start justify-between gap-4">
                       <div>
@@ -180,6 +247,24 @@ export function SystemWizard() {
                     <p className="mt-4 max-w-xl text-sm leading-relaxed text-graphite-200">
                       {t(`results.${rec.key}`)}
                     </p>
+
+                    {/* Sistem özet kartları */}
+                    <div className="mt-5 grid gap-2.5 sm:grid-cols-3">
+                      {rec.specs.map((spec) => (
+                        <div
+                          key={spec.label}
+                          className="rounded-xl border border-white/10 bg-white/[0.05] px-4 py-3"
+                        >
+                          <div className="flex items-center gap-2 text-volt-400">
+                            <spec.icon size={14} strokeWidth={1.75} />
+                            <span className="font-mono text-[9px] font-semibold uppercase tracking-[0.14em]">
+                              {spec.label}
+                            </span>
+                          </div>
+                          <p className="mt-1.5 text-sm font-semibold leading-snug text-white">{spec.value}</p>
+                        </div>
+                      ))}
+                    </div>
 
                     {smart && (
                       <div className="mt-5 flex items-center gap-3 rounded-xl border border-volt-500/40 bg-volt-500/10 px-4 py-3">
@@ -210,6 +295,13 @@ export function SystemWizard() {
                           <ArrowUpRight size={15} />
                         </Link>
                       )}
+                      <Link
+                        href="/calculator"
+                        className="inline-flex items-center gap-2 rounded-full border border-volt-500/40 bg-volt-500/10 px-6 py-3 text-sm font-semibold text-volt-400 transition-colors hover:bg-volt-500/20"
+                      >
+                        <Calculator size={15} />
+                        Detaylı hesap raporu al
+                      </Link>
                     </div>
                   </div>
                 </motion.div>

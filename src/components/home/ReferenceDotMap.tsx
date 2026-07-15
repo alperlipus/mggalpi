@@ -23,10 +23,10 @@ const TARGET_COLOR: Record<ViewMode, string> = {
   turkey: '#f6bc32', // volt-500
   world: '#10b981', // emerald-500
 };
-const DOT_COLOR = 'rgba(111,122,153,0.28)'; // mist-500 @ low alpha
-const OUTLINE_COLOR = 'rgba(154,163,178,0.45)';
-const TOP_PROVINCES = 18;
-const ARC_DURATION = 2200;
+const DOT_COLOR = 'rgba(111,122,153,0.22)'; // mist-500 @ low alpha
+const OUTLINE_COLOR = 'rgba(154,163,178,0.38)';
+const TOP_PROVINCES = 81; // tüm iller
+const ARC_DURATION = 2600;
 
 interface ArcTarget {
   name: string;
@@ -147,21 +147,41 @@ function render(ctx: CanvasRenderingContext2D, state: MapState, w: number, h: nu
 
     const drawArc = dist > 36;
     if (drawArc) {
-      ctx.strokeStyle = targetColor;
-      ctx.globalAlpha = 0.75;
-      ctx.lineWidth = 0.9 + 1.4 * scale;
+      /* Gradient stroke: fades out near the origin, saturates toward the target,
+         with rounded caps and a glowing comet head while the arc is drawing. */
+      const grad = ctx.createLinearGradient(origin[0], origin[1], to[0], to[1]);
+      grad.addColorStop(0, `${targetColor}18`);
+      grad.addColorStop(0.45, `${targetColor}88`);
+      grad.addColorStop(1, targetColor);
+      ctx.strokeStyle = grad;
+      ctx.lineCap = 'round';
+      ctx.lineWidth = 0.8 + 1.5 * scale;
       ctx.beginPath();
       const steps = 48;
       const lim = Math.round(steps * local);
+      let tipX = origin[0];
+      let tipY = origin[1];
       for (let s = 0; s <= lim; s++) {
         const t = s / steps;
         const x = (1 - t) ** 2 * origin[0] + 2 * (1 - t) * t * cx + t ** 2 * to[0];
         const y = (1 - t) ** 2 * origin[1] + 2 * (1 - t) * t * cy + t ** 2 * to[1];
         if (s === 0) ctx.moveTo(x, y);
         else ctx.lineTo(x, y);
+        tipX = x;
+        tipY = y;
       }
       ctx.stroke();
-      ctx.globalAlpha = 1;
+
+      if (local < 1) {
+        ctx.save();
+        ctx.shadowColor = targetColor;
+        ctx.shadowBlur = 8;
+        ctx.fillStyle = '#ffffff';
+        ctx.beginPath();
+        ctx.arc(tipX, tipY, 1.6 + scale, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.restore();
+      }
     }
 
     if (local >= 1) {
