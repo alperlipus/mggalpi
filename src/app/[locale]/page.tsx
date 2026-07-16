@@ -15,14 +15,14 @@ export default function HomePage() {
     <>
       <SectionDots />
       <Hero />
-      <SystemWizard />
       <GroupSection />
-      <VisionSection />
-      <ProductionSection />
+      <SystemWizard />
       <ProductsSection />
-      <WhyUs />
-      <Certs />
       <ReferencesMapSection />
+      <ProductionSection />
+      <Certs />
+      <WhyUs />
+      <VisionSection />
       <HomeContact />
     </>
   );
